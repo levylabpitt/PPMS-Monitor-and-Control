@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2018-05-30 09:54:22" Creator="Patrick Irvin" Comments="" ID="982544bbfbe834bd8fc56acefe1aa954">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2018-05-30 10:04:11" Creator="Patrick Irvin" Comments="" ID="6002e84d8fb071f1005cca40ff55360a">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS2_Instrument</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -112,9 +112,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>API - do not use</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -214,7 +211,21 @@
         <Path>..\lvsrc\instrument.PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30F3A5B6DC451F05211F9B4ADDC6175F</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>PPMS Monitor and Control.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\instrument.PPMS2\PPMS Monitor and Control.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>6738B08A7435622B60F21ECA86BF3266</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +344,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Read Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1573DCBCE6AAA49E81A045A36AF1660A</GUID>
+      <GUID>5FAC47083AF27F444E4871E9591F8A15</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
