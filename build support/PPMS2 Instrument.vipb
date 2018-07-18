@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2018-05-30 10:17:05" Creator="Patrick Irvin" Comments="" ID="f5d00b25e9ed8aaec1ec31a7b0b20275">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2018-07-18 09:51:17" Creator="Patrick Irvin" Comments="" ID="d545d70e297e2086899f4e231b0800eb">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS2_Instrument</Package_File_Name>
-    <Library_Version>1.2.0.5</Library_Version>
+    <Library_Version>1.2.1.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -42,8 +42,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Files are now organized in an SMO that inherits from abstract class instrument.lvclass
-- "PPMS Monitor and Control.vi" now starts the process.vi SMO</Release_Notes>
+      <Release_Notes>- "PPMS Monitor and Control.vi" hides its front panel after the SMO process starts and shows the front panel after the SMO process stops.
+- fix bug that would not terminate the program properly
+- fix bug that would not initialize communications with QD server</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -235,7 +236,7 @@
         <Path>..\lvsrc\instrument.PPMS2\PPMS Monitor and Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43D9D70B4F2A89D91404F09F2F658A04</GUID>
+      <GUID>2CE7F5B3B339DD853BB7BBADF02FC525</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -354,7 +355,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Read Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>889B25C4BF651D7984FF8E48C2A2230B</GUID>
+      <GUID>4C7B1A8B5EDD230B7B44BF7C2B4C7BB3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
