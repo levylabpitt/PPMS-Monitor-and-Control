@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="PPMS2 Instrument.vipb" Type="Document" URL="../../build support/PPMS2 Instrument.vipb"/>
+		</Item>
 		<Item Name="QDInstrument_LabView" Type="Folder">
 			<Item Name="CAN" Type="Folder">
 				<Item Name="CAN_QDInstrument" Type="Folder">
@@ -48,9 +51,6 @@
 			<Item Name="QDInstrument_Example.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument_Example.vi"/>
 			<Item Name="QDInstrument_Server.exe" Type="Document" URL="../QDInstrument_LabView/QDInstrument_Server.exe"/>
 			<Item Name="ReleaseNotes.txt" Type="Document" URL="../QDInstrument_LabView/ReleaseNotes.txt"/>
-		</Item>
-		<Item Name="build support" Type="Folder">
-			<Item Name="PPMS2 Instrument.vipb" Type="Document" URL="../../build support/PPMS2 Instrument.vipb"/>
 		</Item>
 		<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="../instrument.PPMS2/instrument.PPMS2.lvclass"/>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments DELETE ME SOMETIME/Instrument.lvclass"/>
