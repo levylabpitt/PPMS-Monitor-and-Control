@@ -53,8 +53,8 @@
 			<Item Name="QDInstrument_Server.exe" Type="Document" URL="../QDInstrument_LabView/QDInstrument_Server.exe"/>
 			<Item Name="ReleaseNotes.txt" Type="Document" URL="../QDInstrument_LabView/ReleaseNotes.txt"/>
 		</Item>
-		<Item Name="Instrument.PPMS2 UI.lvclass" Type="LVClass" URL="../Instrument.Example UI/Instrument.PPMS2 UI.lvclass"/>
 		<Item Name="Instrument.Example.lvclass" Type="LVClass" URL="../Instrument.Example/Instrument.Example.lvclass"/>
+		<Item Name="Instrument.PPMS2 UI.lvclass" Type="LVClass" URL="../instrument.PPMS2 UI/Instrument.PPMS2 UI.lvclass"/>
 		<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="../instrument.PPMS2/instrument.PPMS2.lvclass"/>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
