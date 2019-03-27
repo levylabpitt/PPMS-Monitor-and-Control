@@ -46,18 +46,15 @@
 				<Item Name="SetPosition.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/SetPosition.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/SetTemperature.vi"/>
 				<Item Name="WaitFor.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/WaitFor.vi"/>
+				<Item Name="GetHelium.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/GetHelium.vi"/>
 			</Item>
 			<Item Name="QDInstrument.dll" Type="Document" URL="../QDInstrument_LabView/QDInstrument.dll"/>
 			<Item Name="QDInstrument_Example.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument_Example.vi"/>
 			<Item Name="QDInstrument_Server.exe" Type="Document" URL="../QDInstrument_LabView/QDInstrument_Server.exe"/>
 			<Item Name="ReleaseNotes.txt" Type="Document" URL="../QDInstrument_LabView/ReleaseNotes.txt"/>
 		</Item>
-		<Item Name="Instrument.Example UI" Type="Folder">
-			<Item Name="Instrument.Example UI.lvclass" Type="LVClass" URL="../Instrument.Example UI/Instrument.Example UI.lvclass"/>
-		</Item>
-		<Item Name="Instrument.Example" Type="Folder">
-			<Item Name="Instrument.Example.lvclass" Type="LVClass" URL="../Instrument.Example/Instrument.Example.lvclass"/>
-		</Item>
+		<Item Name="Instrument.PPMS2 UI.lvclass" Type="LVClass" URL="../Instrument.Example UI/Instrument.PPMS2 UI.lvclass"/>
+		<Item Name="Instrument.Example.lvclass" Type="LVClass" URL="../Instrument.Example/Instrument.Example.lvclass"/>
 		<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="../instrument.PPMS2/instrument.PPMS2.lvclass"/>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
