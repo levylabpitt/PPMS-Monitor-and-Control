@@ -58,7 +58,6 @@
 			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
-			<Item Name="Instrument.Example.lvclass" Type="LVClass" URL="../Instrument.Example/Instrument.Example.lvclass"/>
 		</Item>
 		<Item Name="Instrument.PPMS2 UI.lvclass" Type="LVClass" URL="../instrument.PPMS2 UI/Instrument.PPMS2 UI.lvclass"/>
 		<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="../instrument.PPMS2/instrument.PPMS2.lvclass"/>
@@ -634,7 +633,6 @@
 				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
-				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/QDInstrumentExceptionHandler.vi"/>
