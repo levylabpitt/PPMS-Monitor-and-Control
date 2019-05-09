@@ -13,7 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
 			<Item Name="PPMS2 Instrument.vipb" Type="Document" URL="../PPMS2 Instrument.vipb"/>
-			<Item Name="PPMS2 Instrument.vipc" Type="Document" URL="../../build support/PPMS2 Instrument.vipc"/>
+			<Item Name="PPMS2 Instrument.vipc" Type="Document" URL="../PPMS2 Instrument.vipc"/>
 		</Item>
 		<Item Name="QDInstrument_LabView" Type="Folder">
 			<Item Name="CAN" Type="Folder">
