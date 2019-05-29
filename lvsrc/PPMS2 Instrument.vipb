@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-05-29 14:12:33" Creator="Patrick Irvin" Comments="" ID="720f78b6d9f3160bf4ed7ad5b629a3f5">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-05-29 14:47:07" Creator="Patrick Irvin" Comments="" ID="92a26dedaf75e920d3e6ed7e5d3936a3">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS2_Instrument</Package_File_Name>
-    <Library_Version>1.3.0.9</Library_Version>
+    <Library_Version>1.3.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -41,7 +41,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.3.0.8]
+      <Release_Notes>[1.3.0.9]
 - update to window appearence
 - fix bugs in Get/Set Temperature APIs</Release_Notes>
     </Description>
@@ -249,7 +249,7 @@
         <Path>instrument.PPMS2\PPMS Monitor and Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0326CE91413DDAB6B12A84F72231881E</GUID>
+      <GUID>B96304F4A0580FF382326A61377F4493</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -368,7 +368,7 @@
         <Path>instrument.PPMS2\Get Magnet Field.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBBAAF5B7D761DEF7FC5179ECBAE509B</GUID>
+      <GUID>3D3649BD877DBC224E5936F6D2612B00</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
