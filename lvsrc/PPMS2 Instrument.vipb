@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-07-24 13:02:48" Creator="Patrick Irvin" Comments="" ID="b372771a57a0974f5ff55eb222c19aee">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-07-24 14:48:39" Creator="Patrick Irvin" Comments="" ID="28531ca354eb5c44d68248d1539fc31d">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS2_Instrument</Package_File_Name>
-    <Library_Version>1.3.1.14</Library_Version>
+    <Library_Version>1.3.1.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -40,7 +40,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.3.1.13]
+      <Release_Notes>[1.3.1.15]
 - UI calls PPMS2 Client.vi (rather than RC Read/Write)
 - Update API method names to match parent</Release_Notes>
     </Description>
@@ -251,7 +251,7 @@
         <Path>instrument.PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90A8D31AD8C6B30393C10C78FF5E36C2</GUID>
+      <GUID>D433FE165472E9BE4655C19A0E2901FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -370,7 +370,7 @@
         <Path>instrument.PPMS2\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>465CCBFB16F54E74D485A7FCA49DA9C0</GUID>
+      <GUID>92921346840075F196176A224DDB46E6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
