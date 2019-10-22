@@ -60,6 +60,9 @@
 			<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="../instrument.PPMS2/instrument.PPMS2.lvclass"/>
 		</Item>
 		<Item Name="PPMS" Type="Folder">
+			<Item Name="build support" Type="Folder">
+				<Item Name="PPMS Instrument.vipb" Type="Document" URL="../PPMS Instrument.vipb"/>
+			</Item>
 			<Item Name="instrument.PPMS.lvclass" Type="LVClass" URL="../instrument.PPMS/instrument.PPMS.lvclass"/>
 			<Item Name="Instrument.PPMS UI.lvclass" Type="LVClass" URL="../instrument.PPMS UI/Instrument.PPMS UI.lvclass"/>
 		</Item>
