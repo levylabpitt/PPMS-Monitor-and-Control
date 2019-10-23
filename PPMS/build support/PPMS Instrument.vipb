@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-23 12:52:10" Creator="Patrick Irvin" Comments="" ID="286fd4cb664e9873f9283e1bbae3d5fc">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-23 13:02:30" Creator="Patrick Irvin" Comments="" ID="707befd3093df4e15de8bf3432f8c552">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.0.1.6</Library_Version>
+    <Library_Version>1.0.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\PPMS Monitor and Control\Package</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.0.1.5]
+      <Release_Notes>[1.0.1.6]
 - New Post Build Script and lvclass</Release_Notes>
     </Description>
     <Destinations>
@@ -269,7 +269,7 @@
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B48939AE8C5C9C2DB4A72736FC986E9</GUID>
+      <GUID>4C55A13033724B73C164EEFD37341AFC</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -304,7 +304,7 @@
         <Path>..\lvsrc\instrument.PPMS</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2250167BB3188569F38D659CDD75FDB9</GUID>
+      <GUID>DB0F9778DFBC6CA8DD31EA6C5680824D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -339,7 +339,7 @@
         <Path>..\lvsrc\instrument.PPMS\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>188D6A02F81C320F1A34929FA59CB40E</GUID>
+      <GUID>24BDA159A24DE73189DC2439C52D7B95</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -458,7 +458,7 @@
         <Path>..\lvsrc\instrument.PPMS\Typedefs\Temperature--PPMS--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4EE25E2681D1A2CBC876088563BF3957</GUID>
+      <GUID>5A0DEF8A2F8A3461B70980743ED071A9</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
