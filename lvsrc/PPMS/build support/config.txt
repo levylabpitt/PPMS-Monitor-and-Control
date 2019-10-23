@@ -1,0 +1,5 @@
+;!@Install@!UTF-8!
+Title="PPMS2 Monitor and Control v1.3.4.18"
+BeginPrompt="Do you want to install PPMS2 Monitor and Control v1.3.4.18?"
+RunProgram="setup.exe"
+;!@InstallEnd@!
