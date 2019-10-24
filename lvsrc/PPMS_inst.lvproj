@@ -409,9 +409,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78715B98-E3A5-406B-B04D-6BB132300DCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">PPMS Monitor and Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/PPMS Monitor and Control/Application/PPMS Monitor and Control.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -420,7 +420,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/PPMS Monitor and Control/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/PPMS/build support/PPMS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{01B8686E-0ACB-4654-ABED-5F4B50D097E9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EC18B54C-85E6-4890-86F8-2FC55A743972}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PPMS/PPMS Monitor and Control.vi</Property>
@@ -511,7 +511,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">PPMS Monitor and Control Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{F6D99E8D-61E3-4D0F-9EB0-6375D587E25E}</Property>
 				<Property Name="INST_productName" Type="Str">PPMS Monitor and Control</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.4.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
