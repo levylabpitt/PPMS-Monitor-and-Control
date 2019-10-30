@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-23 21:48:52" Creator="Patrick Irvin" Comments="" ID="3bfca146f3f48ef11d081f62d58f16c3">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-29 23:06:12" Creator="Patrick Irvin" Comments="" ID="34f7cff7df5913f9114055bb86583443">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.0.23</Library_Version>
+    <Library_Version>1.4.1.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\PPMS Monitor and Control\Package</Library_Output_Folder>
@@ -34,8 +34,14 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.0.22]
-- Now opens PPMS or PPMS2 UI depending on user choice.</Release_Notes>
+      <Release_Notes>[1.4.1.23]
+Many bug fixes to get PPMS/PPMS2 to work
+- Fix show/hide PPMS Monitor and Control Launcher
+- Fix configuration being passed to instrument class wire
+- Fix self-terminate and stop instrument properly
+Misc. UI improvements
+
+note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -227,7 +233,7 @@
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3217F091B5D0D021F750238E58973862</GUID>
+      <GUID>ADB7ECC6D9EF95CFE57C7DA7B6212DD0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -332,7 +338,7 @@
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0AD282214F4E4AAE18A510676F20E9B7</GUID>
+      <GUID>7863F07CDB41463392BEB1C590FBE1FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -451,7 +457,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E23E49763636C50AD6420B833997534</GUID>
+      <GUID>976218ABD55998237BC15292E42F634E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
