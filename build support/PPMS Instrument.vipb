@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-29 23:06:12" Creator="Patrick Irvin" Comments="" ID="34f7cff7df5913f9114055bb86583443">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-30 09:29:46" Creator="Patrick Irvin" Comments="" ID="e171d77a383cfd0345e781214748c423">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.1.24</Library_Version>
+    <Library_Version>1.4.2.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\PPMS Monitor and Control\Package</Library_Output_Folder>
@@ -34,12 +34,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.1.23]
-Many bug fixes to get PPMS/PPMS2 to work
-- Fix show/hide PPMS Monitor and Control Launcher
-- Fix configuration being passed to instrument class wire
-- Fix self-terminate and stop instrument properly
-Misc. UI improvements
+      <Release_Notes>[1.4.2.24]
+- Change UI window appearance settings
 
 note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes>
     </Description>
@@ -233,7 +229,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ADB7ECC6D9EF95CFE57C7DA7B6212DD0</GUID>
+      <GUID>FF933713FB7B355BE44C4A366ABE592F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -338,7 +334,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7863F07CDB41463392BEB1C590FBE1FC</GUID>
+      <GUID>4D080CC9B906A9A088FC2AF445AD69F0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -457,7 +453,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>976218ABD55998237BC15292E42F634E</GUID>
+      <GUID>A77B7F550A8E8F18B08FFAD6BCEB563C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
