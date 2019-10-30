@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-30 09:29:46" Creator="Patrick Irvin" Comments="" ID="e171d77a383cfd0345e781214748c423">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-30 13:19:24" Creator="Patrick Irvin" Comments="" ID="93a1aba3c4bdcd3119363eca9e4e6b88">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.2.25</Library_Version>
+    <Library_Version>1.4.2.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\PPMS Monitor and Control\Package</Library_Output_Folder>
@@ -34,8 +34,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.2.24]
+      <Release_Notes>[1.4.2.25]
 - Change UI window appearance settings
+- Fully automated build (from *.vip to Self-Extracting installer *.exe)
 
 note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes>
     </Description>
@@ -229,7 +230,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF933713FB7B355BE44C4A366ABE592F</GUID>
+      <GUID>84AE859DF37D14E33EC026F4B9573205</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -334,7 +335,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4D080CC9B906A9A088FC2AF445AD69F0</GUID>
+      <GUID>145A05C557E39FE892AD1E977FA1D995</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -453,7 +454,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A77B7F550A8E8F18B08FFAD6BCEB563C</GUID>
+      <GUID>7E1705DED74EEAC518D96541C654A80C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
