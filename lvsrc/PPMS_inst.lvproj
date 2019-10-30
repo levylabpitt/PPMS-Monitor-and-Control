@@ -19,6 +19,7 @@
 				<Item Name="PPMS Instrument.vipb" Type="Document" URL="../../build support/PPMS Instrument.vipb"/>
 				<Item Name="PPMS.ico" Type="Document" URL="../../build support/PPMS.ico"/>
 				<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
+				<Item Name="7zSD.sfx" Type="Document" URL="../../build support/7zSD.sfx"/>
 				<Item Name="7zS2.sfx" Type="Document" URL="../../build support/7zS2.sfx"/>
 			</Item>
 			<Item Name="QDInstrument_LabView" Type="Folder">
