@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-30 13:19:24" Creator="Patrick Irvin" Comments="" ID="93a1aba3c4bdcd3119363eca9e4e6b88">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-31 15:05:36" Creator="Patrick Irvin" Comments="" ID="94245958a8dcb3e80409a244de3c3a4a">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.2.26</Library_Version>
+    <Library_Version>1.4.3.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\PPMS Monitor and Control\Package</Library_Output_Folder>
@@ -34,11 +34,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.2.25]
-- Change UI window appearance settings
-- Fully automated build (from *.vip to Self-Extracting installer *.exe)
-
-note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes>
+      <Release_Notes>[1.4.3.26]
+- Remove "set" functions from UIs
+- Fix field limits for PPMS 1 (+/- 90 kOe and LHe &gt; 60%)
+- Add flashing indicator to UI</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -230,7 +229,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>84AE859DF37D14E33EC026F4B9573205</GUID>
+      <GUID>C9E971ECF6C7578D2684BB948FA5C5BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -335,7 +334,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>145A05C557E39FE892AD1E977FA1D995</GUID>
+      <GUID>303981D7FD2658841FB5E6C2E339E9E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -454,7 +453,7 @@ note: Read Level? is not supported for the PPMS 1 in this release</Release_Notes
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E1705DED74EEAC518D96541C654A80C</GUID>
+      <GUID>37D7D1F85AE3B5883541B1CFE3A819C0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
