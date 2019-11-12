@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-10-31 15:05:36" Creator="Patrick Irvin" Comments="" ID="94245958a8dcb3e80409a244de3c3a4a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-11-12 13:26:18" Creator="Patrick Irvin" Comments="" ID="8b08ba0e97aec6d0ff4a11dfc941e00f">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.3.27</Library_Version>
+    <Library_Version>1.4.4.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\PPMS Monitor and Control\Package</Library_Output_Folder>
@@ -34,10 +34,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.3.26]
-- Remove "set" functions from UIs
-- Fix field limits for PPMS 1 (+/- 90 kOe and LHe &gt; 60%)
-- Add flashing indicator to UI</Release_Notes>
+      <Release_Notes>[1.4.4.27]
+update ports:
+- 29171 (PPMS)
+- 29172 (PPMS2)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -229,7 +229,7 @@
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9E971ECF6C7578D2684BB948FA5C5BE</GUID>
+      <GUID>455D1B112DEEC016039570302AB29ED0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -334,7 +334,7 @@
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>303981D7FD2658841FB5E6C2E339E9E6</GUID>
+      <GUID>13472972486FAFF41AD1E96DA7E93E6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -453,7 +453,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37D7D1F85AE3B5883541B1CFE3A819C0</GUID>
+      <GUID>8C298F681ABFAD4951487B1972AA4E39</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
