@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-11-12 13:26:18" Creator="Patrick Irvin" Comments="" ID="8b08ba0e97aec6d0ff4a11dfc941e00f">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-11-20 22:04:22" Creator="Patrick Irvin" Comments="" ID="a209b994f05da6482419cbd0e014d005">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.4.27</Library_Version>
+    <Library_Version>1.4.6.30</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\PPMS Monitor and Control\Package</Library_Output_Folder>
@@ -34,10 +34,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.4.27]
-update ports:
-- 29171 (PPMS)
-- 29172 (PPMS2)</Release_Notes>
+      <Release_Notes>[1.4.6.29]
+- update API enums to be typedefs
+- change PPMS(2) Client rentrancy</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -229,7 +228,7 @@ update ports:
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>455D1B112DEEC016039570302AB29ED0</GUID>
+      <GUID>92D3AD3E4FB8201E5D93EC8C92E257FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -334,7 +333,7 @@ update ports:
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13472972486FAFF41AD1E96DA7E93E6A</GUID>
+      <GUID>CA22BBCA74D45EE286592F33EF87F7C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -453,7 +452,7 @@ update ports:
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C298F681ABFAD4951487B1972AA4E39</GUID>
+      <GUID>016AE0FF3E4741F7CFD29632B8D7773F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
