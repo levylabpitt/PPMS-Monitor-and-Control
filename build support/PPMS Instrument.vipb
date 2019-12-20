@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-12-18 16:50:02" Creator="Patrick Irvin" Comments="" ID="a9781e7eaf9f4f6d4cc3530d5153efff">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-10 14:46:32" Modified_Date="2019-12-20 07:17:10" Creator="Patrick Irvin" Comments="" ID="1f1c2dfd2fbb9aabdbac620d9be692a0">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.7.32</Library_Version>
+    <Library_Version>1.4.8.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\PPMS Monitor and Control\Package</Library_Output_Folder>
@@ -34,8 +34,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.7.31]
-- build w/ Instrument.lvclass v1.3.0.47</Release_Notes>
+      <Release_Notes>[1.4.8.32]
+- build w/ Instrument.lvclass v1.3.2.49</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -227,7 +227,7 @@
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC831B548B56BDA639DE2799F623CC4F</GUID>
+      <GUID>B18937EA52DA0790C8E7BE5D8AE5398B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -332,7 +332,7 @@
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>476784442D75576D02B849C289731284</GUID>
+      <GUID>2394250885261D770121C7EBF2EC23CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -451,7 +451,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>581C2F1921CE752F76B3990163E83C3F</GUID>
+      <GUID>46FADD558470519206D2A7165D28F1B1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
