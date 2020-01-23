@@ -1,6 +1,6 @@
 # PPMS Monitor and Control
 
-PPMS Monitor and Control is a program written in LabVIEW to monitor the status of our to PPMS systems. It also provides a UI and API for controlling the magnetic field, temperature, and rotation angle (for the PPMS2 only)
+PPMS Monitor and Control is a program written in LabVIEW to monitor the status of our two PPMS systems. It also provides a UI and API for controlling the magnetic field, temperature, and rotation angle (for the PPMS2 only)
 
 ## Installation
 
