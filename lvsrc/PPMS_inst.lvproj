@@ -22,6 +22,51 @@
 				<Item Name="7zSD.sfx" Type="Document" URL="../../build support/7zSD.sfx"/>
 				<Item Name="7zS2.sfx" Type="Document" URL="../../build support/7zS2.sfx"/>
 			</Item>
+			<Item Name="CS4LV6_1" Type="Folder">
+				<Item Name="CS4" Type="Folder">
+					<Item Name="CS-4 Close.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Close.vi"/>
+					<Item Name="CS-4 Config.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Config.vi"/>
+					<Item Name="CS-4 Error Message.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Error Message.vi"/>
+					<Item Name="CS-4 Error Status.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Error Status.vi"/>
+					<Item Name="CS-4 Get Limits.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Limits.vi"/>
+					<Item Name="CS-4 Get Operational Mode.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Operational Mode.vi"/>
+					<Item Name="CS-4 Get Ranges.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Ranges.vi"/>
+					<Item Name="CS-4 Get Rates.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Rates.vi"/>
+					<Item Name="CS-4 Get Stb.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Stb.vi"/>
+					<Item Name="CS-4 Get Sweep Mode.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Sweep Mode.vi"/>
+					<Item Name="CS-4 Get Switch Heater.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Switch Heater.vi"/>
+					<Item Name="CS-4 Get Units.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Units.vi"/>
+					<Item Name="CS-4 Initialize.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Initialize.vi"/>
+					<Item Name="CS-4 Read Current.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Read Current.vi"/>
+					<Item Name="CS-4 Read Mag Current.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Read Mag Current.vi"/>
+					<Item Name="CS-4 Read Mag Volts.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Read Mag Volts.vi"/>
+					<Item Name="CS-4 Read Volts.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Read Volts.vi"/>
+					<Item Name="CS-4 Recall.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Recall.vi"/>
+					<Item Name="CS-4 Reset.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Reset.vi"/>
+					<Item Name="CS-4 Revision Query.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Revision Query.vi"/>
+					<Item Name="CS-4 Self-Test.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Self-Test.vi"/>
+					<Item Name="CS-4 Set Limits.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Limits.vi"/>
+					<Item Name="CS-4 Set Ranges.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Ranges.vi"/>
+					<Item Name="CS-4 Set Rates.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Rates.vi"/>
+					<Item Name="CS-4 Set Sweep Mode.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Sweep Mode.vi"/>
+					<Item Name="CS-4 Set Switch Heater.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Switch Heater.vi"/>
+					<Item Name="CS-4 Set Units.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Units.vi"/>
+					<Item Name="CS-4 Status.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Status.vi"/>
+					<Item Name="CS-4 Utility Clean Up Initialize.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Utility Clean Up Initialize.vi"/>
+					<Item Name="CS-4 Utility Default Instrument Setup.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Utility Default Instrument Setup.vi"/>
+					<Item Name="CS-4 Write.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Write.vi"/>
+					<Item Name="General Error Handler.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/General Error Handler.vi"/>
+					<Item Name="Simple Error Handler.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/Simple Error Handler.vi"/>
+					<Item Name="sweep.ctl" Type="VI" URL="../CS4LV6_1/CS4.llb/sweep.ctl"/>
+				</Item>
+				<Item Name="CS4DEMO" Type="Folder">
+					<Item Name="CS-4 Device.vi" Type="VI" URL="../CS4LV6_1/CS4DEMO.LLB/CS-4 Device.vi"/>
+					<Item Name="CS-4 Operate.vi" Type="VI" URL="../CS4LV6_1/CS4DEMO.LLB/CS-4 Operate.vi"/>
+					<Item Name="CS-4 Setup Dialog.vi" Type="VI" URL="../CS4LV6_1/CS4DEMO.LLB/CS-4 Setup Dialog.vi"/>
+				</Item>
+				<Item Name="LOG.TXT" Type="Document" URL="../CS4LV6_1/LOG.TXT"/>
+				<Item Name="README.TXT" Type="Document" URL="../CS4LV6_1/README.TXT"/>
+			</Item>
 			<Item Name="QDInstrument_LabView" Type="Folder">
 				<Item Name="CAN" Type="Folder">
 					<Item Name="CAN_QDInstrument.llb" Type="Folder">
@@ -823,6 +868,7 @@
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Periodic Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Periodic Trigger__ogtk.vi"/>
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
+				<Item Name="Write SMO Configuration.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument/Write SMO Configuration.vi"/>
 			</Item>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -930,8 +976,8 @@
 			<Item Name="AB_UI_VI_Settings_Customized.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_VI_Settings_Customized.vi"/>
 			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
 			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
 			<Item Name="provcom_SupportsAppHWConfigBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_SupportsAppHWConfigBehavior.vi"/>
 			<Item Name="provcom_CanExistUnderProjectRootBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CanExistUnderProjectRootBehavior.vi"/>
