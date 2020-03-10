@@ -13,14 +13,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="PPMS" Type="Folder">
 			<Item Name="build support" Type="Folder">
-				<Item Name="PostBuildSupport" Type="Folder">
-					<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="../../build support/PostBuildSupport/PostBuildSupport.lvclass"/>
-				</Item>
 				<Item Name="PPMS Instrument.vipb" Type="Document" URL="../../build support/PPMS Instrument.vipb"/>
 				<Item Name="PPMS.ico" Type="Document" URL="../../build support/PPMS.ico"/>
 				<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
-				<Item Name="7zSD.sfx" Type="Document" URL="../../build support/7zSD.sfx"/>
-				<Item Name="7zS2.sfx" Type="Document" URL="../../build support/7zS2.sfx"/>
 			</Item>
 			<Item Name="CS4LV6_1" Type="Folder">
 				<Item Name="CS4" Type="Folder">
@@ -1130,6 +1125,7 @@
 			<Item Name="CDK_Utility_Compare_Install_Paths.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_Compare_Install_Paths.vi"/>
 			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/applibs/distkit/MDF/NIMdf.dll"/>
 			<Item Name="CDK_Utility_Recurse_Folder.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_Recurse_Folder.vi"/>
+			<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="../../build support/PostBuildSupport/PostBuildSupport.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PPMS Monitor and Control Application" Type="EXE">
