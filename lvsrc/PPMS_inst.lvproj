@@ -107,7 +107,6 @@
 			<Item Name="Instrument.PPMS2 UI.lvclass" Type="LVClass" URL="../instrument.PPMS2 UI/Instrument.PPMS2 UI.lvclass"/>
 			<Item Name="PPMS Monitor and Control.vi" Type="VI" URL="../PPMS Monitor and Control.vi"/>
 		</Item>
-		<Item Name="New Text Document.txt" Type="Document" URL="../drivers/New Text Document.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
