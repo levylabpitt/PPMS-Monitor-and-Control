@@ -19,87 +19,87 @@
 			</Item>
 			<Item Name="CS4LV6_1" Type="Folder">
 				<Item Name="CS4" Type="Folder">
-					<Item Name="CS-4 Close.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Close.vi"/>
-					<Item Name="CS-4 Config.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Config.vi"/>
-					<Item Name="CS-4 Error Message.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Error Message.vi"/>
-					<Item Name="CS-4 Error Status.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Error Status.vi"/>
-					<Item Name="CS-4 Get Limits.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Limits.vi"/>
-					<Item Name="CS-4 Get Operational Mode.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Operational Mode.vi"/>
-					<Item Name="CS-4 Get Ranges.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Ranges.vi"/>
-					<Item Name="CS-4 Get Rates.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Rates.vi"/>
-					<Item Name="CS-4 Get Stb.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Stb.vi"/>
-					<Item Name="CS-4 Get Sweep Mode.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Sweep Mode.vi"/>
-					<Item Name="CS-4 Get Switch Heater.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Switch Heater.vi"/>
-					<Item Name="CS-4 Get Units.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Get Units.vi"/>
-					<Item Name="CS-4 Initialize.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Initialize.vi"/>
-					<Item Name="CS-4 Read Current.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Read Current.vi"/>
-					<Item Name="CS-4 Read Mag Current.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Read Mag Current.vi"/>
-					<Item Name="CS-4 Read Mag Volts.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Read Mag Volts.vi"/>
-					<Item Name="CS-4 Read Volts.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Read Volts.vi"/>
-					<Item Name="CS-4 Recall.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Recall.vi"/>
-					<Item Name="CS-4 Reset.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Reset.vi"/>
-					<Item Name="CS-4 Revision Query.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Revision Query.vi"/>
-					<Item Name="CS-4 Self-Test.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Self-Test.vi"/>
-					<Item Name="CS-4 Set Limits.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Limits.vi"/>
-					<Item Name="CS-4 Set Ranges.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Ranges.vi"/>
-					<Item Name="CS-4 Set Rates.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Rates.vi"/>
-					<Item Name="CS-4 Set Sweep Mode.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Sweep Mode.vi"/>
-					<Item Name="CS-4 Set Switch Heater.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Switch Heater.vi"/>
-					<Item Name="CS-4 Set Units.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Set Units.vi"/>
-					<Item Name="CS-4 Status.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Status.vi"/>
-					<Item Name="CS-4 Utility Clean Up Initialize.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Utility Clean Up Initialize.vi"/>
-					<Item Name="CS-4 Utility Default Instrument Setup.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Utility Default Instrument Setup.vi"/>
-					<Item Name="CS-4 Write.vi" Type="VI" URL="../CS4LV6_1/CS4.llb/CS-4 Write.vi"/>
-					<Item Name="sweep.ctl" Type="VI" URL="../CS4LV6_1/CS4.llb/sweep.ctl"/>
+					<Item Name="CS-4 Close.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Close.vi"/>
+					<Item Name="CS-4 Config.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Config.vi"/>
+					<Item Name="CS-4 Error Message.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Error Message.vi"/>
+					<Item Name="CS-4 Error Status.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Error Status.vi"/>
+					<Item Name="CS-4 Get Limits.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Get Limits.vi"/>
+					<Item Name="CS-4 Get Operational Mode.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Get Operational Mode.vi"/>
+					<Item Name="CS-4 Get Ranges.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Get Ranges.vi"/>
+					<Item Name="CS-4 Get Rates.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Get Rates.vi"/>
+					<Item Name="CS-4 Get Stb.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Get Stb.vi"/>
+					<Item Name="CS-4 Get Sweep Mode.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Get Sweep Mode.vi"/>
+					<Item Name="CS-4 Get Switch Heater.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Get Switch Heater.vi"/>
+					<Item Name="CS-4 Get Units.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Get Units.vi"/>
+					<Item Name="CS-4 Initialize.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Initialize.vi"/>
+					<Item Name="CS-4 Read Current.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Read Current.vi"/>
+					<Item Name="CS-4 Read Mag Current.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Read Mag Current.vi"/>
+					<Item Name="CS-4 Read Mag Volts.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Read Mag Volts.vi"/>
+					<Item Name="CS-4 Read Volts.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Read Volts.vi"/>
+					<Item Name="CS-4 Recall.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Recall.vi"/>
+					<Item Name="CS-4 Reset.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Reset.vi"/>
+					<Item Name="CS-4 Revision Query.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Revision Query.vi"/>
+					<Item Name="CS-4 Self-Test.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Self-Test.vi"/>
+					<Item Name="CS-4 Set Limits.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Set Limits.vi"/>
+					<Item Name="CS-4 Set Ranges.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Set Ranges.vi"/>
+					<Item Name="CS-4 Set Rates.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Set Rates.vi"/>
+					<Item Name="CS-4 Set Sweep Mode.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Set Sweep Mode.vi"/>
+					<Item Name="CS-4 Set Switch Heater.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Set Switch Heater.vi"/>
+					<Item Name="CS-4 Set Units.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Set Units.vi"/>
+					<Item Name="CS-4 Status.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Status.vi"/>
+					<Item Name="CS-4 Utility Clean Up Initialize.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Utility Clean Up Initialize.vi"/>
+					<Item Name="CS-4 Utility Default Instrument Setup.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Utility Default Instrument Setup.vi"/>
+					<Item Name="CS-4 Write.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/CS-4 Write.vi"/>
+					<Item Name="sweep.ctl" Type="VI" URL="../drivers/CS4LV6_1/CS4.llb/sweep.ctl"/>
 				</Item>
 				<Item Name="CS4DEMO" Type="Folder">
-					<Item Name="CS-4 Device.vi" Type="VI" URL="../CS4LV6_1/CS4DEMO.LLB/CS-4 Device.vi"/>
-					<Item Name="CS-4 Operate.vi" Type="VI" URL="../CS4LV6_1/CS4DEMO.LLB/CS-4 Operate.vi"/>
-					<Item Name="CS-4 Setup Dialog.vi" Type="VI" URL="../CS4LV6_1/CS4DEMO.LLB/CS-4 Setup Dialog.vi"/>
+					<Item Name="CS-4 Device.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4DEMO.LLB/CS-4 Device.vi"/>
+					<Item Name="CS-4 Operate.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4DEMO.LLB/CS-4 Operate.vi"/>
+					<Item Name="CS-4 Setup Dialog.vi" Type="VI" URL="../drivers/CS4LV6_1/CS4DEMO.LLB/CS-4 Setup Dialog.vi"/>
 				</Item>
-				<Item Name="LOG.TXT" Type="Document" URL="../CS4LV6_1/LOG.TXT"/>
-				<Item Name="README.TXT" Type="Document" URL="../CS4LV6_1/README.TXT"/>
+				<Item Name="LOG.TXT" Type="Document" URL="../drivers/CS4LV6_1/LOG.TXT"/>
+				<Item Name="README.TXT" Type="Document" URL="../drivers/CS4LV6_1/README.TXT"/>
 			</Item>
 			<Item Name="QDInstrument_LabView" Type="Folder">
 				<Item Name="CAN" Type="Folder">
 					<Item Name="CAN_QDInstrument.llb" Type="Folder">
-						<Item Name="ReadSDO_FLT.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_FLT.vi"/>
-						<Item Name="ReadSDO_S16.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S16.vi"/>
-						<Item Name="ReadSDO_S32.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S32.vi"/>
-						<Item Name="ReadSDO_S8.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S8.vi"/>
-						<Item Name="ReadSDO_STR.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_STR.vi"/>
-						<Item Name="ReadSDO_U16.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U16.vi"/>
-						<Item Name="ReadSDO_U32.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U32.vi"/>
-						<Item Name="ReadSDO_U8.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U8.vi"/>
+						<Item Name="ReadSDO_FLT.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_FLT.vi"/>
+						<Item Name="ReadSDO_S16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S16.vi"/>
+						<Item Name="ReadSDO_S32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S32.vi"/>
+						<Item Name="ReadSDO_S8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S8.vi"/>
+						<Item Name="ReadSDO_STR.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_STR.vi"/>
+						<Item Name="ReadSDO_U16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U16.vi"/>
+						<Item Name="ReadSDO_U32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U32.vi"/>
+						<Item Name="ReadSDO_U8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U8.vi"/>
 					</Item>
-					<Item Name="CAN_Float_Example.vi" Type="VI" URL="../QDInstrument_LabView/CAN/CAN_Float_Example.vi"/>
+					<Item Name="CAN_Float_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Float_Example.vi"/>
 				</Item>
 				<Item Name="PPMS" Type="Folder">
-					<Item Name="GetPPMSItem.vi" Type="VI" URL="../QDInstrument_LabView/PPMS/GetPPMSItem.vi"/>
-					<Item Name="GetPPMSItem_Example.vi" Type="VI" URL="../QDInstrument_LabView/PPMS/GetPPMSItem_Example.vi"/>
-					<Item Name="SendPPMSCommand.vi" Type="VI" URL="../QDInstrument_LabView/PPMS/SendPPMSCommand.vi"/>
-					<Item Name="SendPPMSCommand_Example.vi" Type="VI" URL="../QDInstrument_LabView/PPMS/SendPPMSCommand_Example.vi"/>
-					<Item Name="SendPPMSCommand_Rotator.vi" Type="VI" URL="../QDInstrument_LabView/PPMS/SendPPMSCommand_Rotator.vi"/>
+					<Item Name="GetPPMSItem.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/GetPPMSItem.vi"/>
+					<Item Name="GetPPMSItem_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/GetPPMSItem_Example.vi"/>
+					<Item Name="SendPPMSCommand.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/SendPPMSCommand.vi"/>
+					<Item Name="SendPPMSCommand_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/SendPPMSCommand_Example.vi"/>
+					<Item Name="SendPPMSCommand_Rotator.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/SendPPMSCommand_Rotator.vi"/>
 				</Item>
 				<Item Name="QDInstrument" Type="Folder">
-					<Item Name="GetChamber.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/GetChamber.vi"/>
-					<Item Name="GetField.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/GetField.vi"/>
-					<Item Name="GetHelium.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/GetHelium.vi"/>
-					<Item Name="GetPosition.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/GetPosition.vi"/>
-					<Item Name="GetTemperature.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/GetTemperature.vi"/>
-					<Item Name="OpenQDInstrument.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/OpenQDInstrument.vi"/>
-					<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/QDInstrumentExceptionHandler.vi"/>
-					<Item Name="SetChamber.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/SetChamber.vi"/>
-					<Item Name="SetField.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/SetField.vi"/>
-					<Item Name="SetPosition.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/SetPosition.vi"/>
-					<Item Name="SetTemperature.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/SetTemperature.vi"/>
-					<Item Name="WaitFor.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument/WaitFor.vi"/>
+					<Item Name="GetChamber.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetChamber.vi"/>
+					<Item Name="GetField.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetField.vi"/>
+					<Item Name="GetHelium.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetHelium.vi"/>
+					<Item Name="GetPosition.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetPosition.vi"/>
+					<Item Name="GetTemperature.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetTemperature.vi"/>
+					<Item Name="OpenQDInstrument.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/OpenQDInstrument.vi"/>
+					<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/QDInstrumentExceptionHandler.vi"/>
+					<Item Name="SetChamber.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetChamber.vi"/>
+					<Item Name="SetField.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetField.vi"/>
+					<Item Name="SetPosition.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetPosition.vi"/>
+					<Item Name="SetTemperature.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetTemperature.vi"/>
+					<Item Name="WaitFor.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/WaitFor.vi"/>
 				</Item>
-				<Item Name="QDInstrument.dll" Type="Document" URL="../QDInstrument_LabView/QDInstrument.dll"/>
-				<Item Name="QDInstrument.llx" Type="Document" URL="../QDInstrument_LabView/QDInstrument.llx"/>
-				<Item Name="QDInstrument_Example.vi" Type="VI" URL="../QDInstrument_LabView/QDInstrument_Example.vi"/>
-				<Item Name="QDInstrument_Server.exe" Type="Document" URL="../QDInstrument_LabView/QDInstrument_Server.exe"/>
-				<Item Name="ReleaseNotes.txt" Type="Document" URL="../QDInstrument_LabView/ReleaseNotes.txt"/>
+				<Item Name="QDInstrument.dll" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument.dll"/>
+				<Item Name="QDInstrument.llx" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument.llx"/>
+				<Item Name="QDInstrument_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument_Example.vi"/>
+				<Item Name="QDInstrument_Server.exe" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument_Server.exe"/>
+				<Item Name="ReleaseNotes.txt" Type="Document" URL="../drivers/QDInstrument_LabView/ReleaseNotes.txt"/>
 			</Item>
 			<Item Name="instrument.PPMS.lvclass" Type="LVClass" URL="../instrument.PPMS/instrument.PPMS.lvclass"/>
 			<Item Name="Instrument.PPMS UI.lvclass" Type="LVClass" URL="../instrument.PPMS UI/Instrument.PPMS UI.lvclass"/>
@@ -107,6 +107,7 @@
 			<Item Name="Instrument.PPMS2 UI.lvclass" Type="LVClass" URL="../instrument.PPMS2 UI/Instrument.PPMS2 UI.lvclass"/>
 			<Item Name="PPMS Monitor and Control.vi" Type="VI" URL="../PPMS Monitor and Control.vi"/>
 		</Item>
+		<Item Name="New Text Document.txt" Type="Document" URL="../drivers/New Text Document.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -864,6 +865,11 @@
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
 				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 				<Item Name="Instrument UI.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument UI/Instrument UI.lvclass"/>
+				<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/VSource/Instrument.VSource.lvclass"/>
+				<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/VNA/Instrument.VNA.lvclass"/>
+				<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
+				<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Strain/Instrument.Strain.lvclass"/>
+				<Item Name="Instrument.OpticalDelayLine.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Optical Delay Line/Instrument.OpticalDelayLine.lvclass"/>
 			</Item>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

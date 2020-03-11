@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-03-10 11:46:18" Creator="Patrick Irvin" Comments="" ID="1492cb7311a2cca717b94e39152ff329">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-03-10 12:21:37" Creator="Patrick Irvin" Comments="" ID="cc23ecb6f1806b12c1d30f7a1d944bbd">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.10.34</Library_Version>
+    <Library_Version>1.4.10.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -21,7 +21,7 @@
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
-      <Post-Build_VI>Post-Build Custom Action.vi</Post-Build_VI>
+      <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.10.34]
+      <Release_Notes>[1.4.10.36]
 - build w/ Instrument.lvclass v1.5.9.71</Release_Notes>
     </Description>
     <Destinations>
