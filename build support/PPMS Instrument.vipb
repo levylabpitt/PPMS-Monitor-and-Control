@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-03-11 22:34:02" Creator="Patrick Irvin" Comments="" ID="2e2e7eac049639f9079fdc8d1dae5de7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-03-12 07:33:41" Creator="Patrick Irvin" Comments="" ID="02458fcf491629e0ed5ef0b659cbbaa5">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
     <Library_Version>1.4.11.38</Library_Version>
@@ -21,7 +21,7 @@
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
-      <Post-Build_VI/>
+      <Post-Build_VI>Post-Build Custom Action.vi</Post-Build_VI>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -33,8 +33,8 @@
       <Description>Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)</Description>
       <Copyright/>
       <Packager/>
-      <URL/>
-      <Release_Notes>[1.4.11.37]
+      <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
+      <Release_Notes>[1.4.11.38]
 - build w/ Instrument.lvclass v1.5.11.73
 - convert command list to enum</Release_Notes>
     </Description>
@@ -228,7 +228,7 @@
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E22131B2F1E7F0ECCD14924E5C7E1DD0</GUID>
+      <GUID>A8806C21948FB92E8C51BD2289B65774</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +333,7 @@
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E2EDA01CEB59CC567881A3552A0FABE2</GUID>
+      <GUID>7BE968080633122538A3068329479B20</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -452,7 +452,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0076B2866FDCAD2F808AA4CC31ED595E</GUID>
+      <GUID>846EC810FFAEF8865CD36D30026E0E82</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
