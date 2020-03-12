@@ -327,6 +327,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
+		<Item Name="PPMS2.Command Enum to String.vi" Type="VI" URL="../PPMS2.Command Enum to String.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)G!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!#!!Q`````Q!91%!!!@````]!"!N$&lt;WVN97ZE=S"&lt;81!11$$`````"U.P&lt;7VB&lt;G1!/E"Q!"Y!!"I9;7ZT&gt;(*V&lt;76O&gt;#Z15%V4-CZM&gt;G.M98.T!!!5;7ZT&gt;(*V&lt;76O&gt;#Z15%V4-C"P&gt;81!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!,I!]1!!!!!!!!!#''FO=X2S&gt;7VF&lt;H1O5&amp;".5T)O&lt;(:D&lt;'&amp;T=R&gt;15%V4-CZ$&lt;WVN97ZE=SVF&lt;H6N,G.U&lt;!#"1"9!#""(:81A47&amp;H&lt;G6U)%:J:7RE%%&gt;F&gt;#"):7RJ&gt;7UA4'6W:7Q02W6U)&amp;2F&lt;8"F=G&amp;U&gt;8*F#5&gt;F&gt;#""&lt;G&gt;M:2"4:81A47&amp;H&lt;G6U)%:J:7RE$V.F&gt;#"5:7VQ:8*B&gt;(6S:1F4:81A17ZH&lt;'5':W6U17RM!!&gt;$&lt;WVN97ZE!$B!=!!?!!!;''FO=X2S&gt;7VF&lt;H1O5&amp;".5T)O&lt;(:D&lt;'&amp;T=Q!!%WFO=X2S&gt;7VF&lt;H1O5&amp;".5T)A;7Y!91$Q!!Q!!Q!&amp;!!9!"Q!)!!A!#!!)!!E!#!!+!!M$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">256</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+		</Item>
 	</Item>
 	<Item Name="Process.vi" Type="VI" URL="../Process.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%D!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;''FO=X2S&gt;7VF&lt;H1O5&amp;".5T)O&lt;(:D&lt;'&amp;T=Q!!&amp;'FO=X2S&gt;7VF&lt;H1O5&amp;".5T)A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!.E"Q!"Y!!"I9;7ZT&gt;(*V&lt;76O&gt;#Z15%V4-CZM&gt;G.M98.T!!!1;7ZT&gt;(*V&lt;76O&gt;#Z15%V4-A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
