@@ -13,7 +13,7 @@ PPMS Monitor and Control is a program written in LabVIEW to monitor the status o
 Coming soon...
 
 ## Contributing
-please contact [Patrick Irvin](p.irvin@levylab.org)
+Please contact [Patrick Irvin](https://github.com/ciozi137)
 
 ## License
 [BSD-3](https://choosealicense.com/licenses/bsd-3-clause/)
