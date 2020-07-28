@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-07-22 17:40:21" Creator="Patrick Irvin" Comments="" ID="2291b88d3dcb6e095852b0f86a49f06d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-07-28 15:50:08" Creator="Patrick Irvin" Comments="" ID="0a9f21b976edc75994acd268dc77ef31">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.4.12.39</Library_Version>
+    <Library_Version>1.4.13.40</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -34,9 +34,9 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>[1.4.12.38]
-- build w/ Instrument.lvclass v1.5.13.75
-- various changes to improve speed, reliability, and stability</Release_Notes>
+      <Release_Notes>[1.4.13.39]
+- build w/ Instrument.lvclass v1.5.15.77
+- installer now adds a start menu shortcut</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -228,7 +228,7 @@
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7DA96F307E088781331701CEC39D83D</GUID>
+      <GUID>2BCEC9B79F41C3F0D76A6D5F2430EAC8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +333,7 @@
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7764C7C28DA9BBC3C655839D99E32EB</GUID>
+      <GUID>B0E0A5AF984DFEF5763AB7B05F887790</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -452,7 +452,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F19608FFD981E54AC036EF3E15E7473</GUID>
+      <GUID>00B4255FB1A91CC3872DE919EA7423D3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
