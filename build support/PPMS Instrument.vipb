@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-11-06 07:25:36" Creator="Patrick Irvin" Comments="" ID="c6a88ddd94dc88c9afbae6827f487760">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-11-06 14:49:43" Creator="Patrick Irvin" Comments="" ID="55bf12e40ff2792b376995debb07bacf">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.5.1.42</Library_Version>
+    <Library_Version>1.5.2.43</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -34,8 +34,9 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>[1.5.1]
-- build with updated pgsql package that fixes credentials issue.</Release_Notes>
+      <Release_Notes>[1.5.2]
+- Add delay to shutdown to help close .NET reference to QD Instrument Server
+- Update UI FP version numbers</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -227,7 +228,7 @@
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B83B86E69036DCB4F10314453DB134EB</GUID>
+      <GUID>442500AE80C26CC4041665D86AF4F0D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -332,7 +333,7 @@
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9937A30BEDC4B6228C55E1FCAD9C3BD1</GUID>
+      <GUID>CBF3C980CE0DB51B04AF9CE2DB03761E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -451,7 +452,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29BAD8A1446FD3A0F2BF4FEAB98C55A7</GUID>
+      <GUID>19533CC0082743F43D346FFE8D36365D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
