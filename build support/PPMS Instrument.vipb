@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-11-06 14:49:43" Creator="Patrick Irvin" Comments="" ID="55bf12e40ff2792b376995debb07bacf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2020-11-12 14:23:23" Creator="Patrick Irvin" Comments="" ID="8b620280d9788682ca2507308111ff12">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.5.2.43</Library_Version>
+    <Library_Version>1.5.3.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.5.13.75</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.6.3.94</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -34,9 +34,16 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>[1.5.2]
-- Add delay to shutdown to help close .NET reference to QD Instrument Server
-- Update UI FP version numbers</Release_Notes>
+      <Release_Notes>[1.5.3]
+1. Bug fixes in PPMS2 APIs2. Updated B field limits:
+- PPMS LHe (%)
+  - 0 - 50: B = 0 T
+  - 51 - 60: B &lt; 1 T
+  - 61 - 100: B &lt; 9 T
+
+- PPMS 2 LHe (%)
+  - 0 - 70: B = 0 T
+  - 71 - 100: B &lt; 1 T</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -228,7 +235,7 @@
         <Path>..\lvsrc\PPMS2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>442500AE80C26CC4041665D86AF4F0D6</GUID>
+      <GUID>BBA05084F5FD353F496062E8348DFAF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +340,7 @@
         <Path>..\lvsrc\instrument.PPMS\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBF3C980CE0DB51B04AF9CE2DB03761E</GUID>
+      <GUID>18EF806F8042DEFDCD61955959E429F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -452,7 +459,7 @@
         <Path>..\lvsrc\instrument.PPMS2\Set Angle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19533CC0082743F43D346FFE8D36365D</GUID>
+      <GUID>16AA66A3E77BEF3155018BA67712B21F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
