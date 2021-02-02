@@ -55,6 +55,7 @@
 				<Item Name="QDInstrument.dll" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument.dll"/>
 				<Item Name="QDInstrument.llx" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument.llx"/>
 				<Item Name="QDInstrument_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument_Example.vi"/>
+				<Item Name="QDInstrument_Example_Simple.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument_Example_Simple.vi"/>
 				<Item Name="QDInstrument_Server.exe" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument_Server.exe"/>
 				<Item Name="ReleaseNotes.txt" Type="Document" URL="../drivers/QDInstrument_LabView/ReleaseNotes.txt"/>
 			</Item>
@@ -750,6 +751,10 @@
 				<Item Name="ProgressBar_Win_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_Win_WireFlow.lvclass"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="LMH-Toolbox.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/Toolbox/LMH-Toolbox.lvlib"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/UTC Offsets -- enum.ctl"/>
+				<Item Name="Get Local UTC Offset.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/Get Local UTC Offset.vi"/>
+				<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
@@ -1167,7 +1172,6 @@
 				<Item Name="MGI Interpolate 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Interpolate 1D Array Extended.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="Array to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to VCluster__ogtk.vi"/>
-				<Item Name="Shorten Data Cluster.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Logger.PGSQL/Shorten Data Cluster.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
