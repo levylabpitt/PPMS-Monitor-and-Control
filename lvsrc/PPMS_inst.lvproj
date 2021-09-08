@@ -13,13 +13,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="build support" Type="Folder">
-			<Item Name="PPMS Instrument.vipb" Type="Document" URL="../../build support/PPMS Instrument.vipb"/>
-			<Item Name="PPMS.ico" Type="Document" URL="../../build support/PPMS.ico"/>
-			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
-			<Item Name="libzmq32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/libzmq32.dll"/>
-			<Item Name="lvzmq32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/lvzmq32.dll"/>
-		</Item>
 		<Item Name="drivers" Type="Folder">
 			<Item Name="QDInstrument_LabView" Type="Folder">
 				<Item Name="CAN" Type="Folder">
@@ -61,6 +54,13 @@
 				<Item Name="QDInstrument_Server.exe" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument_Server.exe"/>
 				<Item Name="ReleaseNotes.txt" Type="Document" URL="../drivers/QDInstrument_LabView/ReleaseNotes.txt"/>
 			</Item>
+		</Item>
+		<Item Name="build support" Type="Folder">
+			<Item Name="PPMS Instrument.vipb" Type="Document" URL="../../build support/PPMS Instrument.vipb"/>
+			<Item Name="PPMS.ico" Type="Document" URL="../../build support/PPMS.ico"/>
+			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
+			<Item Name="libzmq32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/libzmq32.dll"/>
+			<Item Name="lvzmq32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/lvzmq32.dll"/>
 		</Item>
 		<Item Name="SMOs" Type="Folder">
 			<Item Name="instrument.PPMS.lvclass" Type="LVClass" URL="../instrument.PPMS/instrument.PPMS.lvclass"/>
@@ -1789,7 +1789,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78715B98-E3A5-406B-B04D-6BB132300DCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">PPMS Monitor and Control.exe</Property>

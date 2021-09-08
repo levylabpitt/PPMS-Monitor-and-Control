@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2021-08-26 16:27:10" Creator="Patrick Irvin" Comments="" ID="e383e519a85f6c3b586c8a18a9a6812e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2021-09-08 09:25:21" Creator="Patrick Irvin" Comments="" ID="df31fc93527cbeb774aa6c1f30766aed">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.8.0.47</Library_Version>
+    <Library_Version>1.8.0.48</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -106,7 +106,7 @@
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
       <Release_Notes>[1.8.0]
 - Update to LV 2019
-- Update to Instrument Framework v1.9.0
+- Update to Instrument Framework v1.9.0.18
 - Change class structure
 - Control chamber; Display and log chamber status</Release_Notes>
     </Description>
@@ -300,7 +300,7 @@
         <Path>..\lvsrc\instrument.PPMS</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CD143E3A120EAC8D85370674ECEDA61</GUID>
+      <GUID>1655272D5E0D26DA58C4FAC596ED83FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -433,7 +433,7 @@
         <Path>..\lvsrc\instrument.PPMS\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>242E1E81FE2F5C400C435125A3285AB4</GUID>
+      <GUID>C7E632C1A48C13648710B603CB69259F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
