@@ -1497,7 +1497,7 @@
 				<Item Name="ITX Commands.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.ITX/ITX Commands/ITX Commands.lvclass"/>
 				<Item Name="LV-Data.TDMS.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.TDMS/LV-Data.TDMS.lvclass"/>
 				<Item Name="Conversion.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/Macros/Conversion.lvclass"/>
-				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Optical Delay Line/Instrument.DelayLine.lvclass"/>
+				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
