@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2021-11-30 14:17:50" Creator="Patrick Irvin" Comments="" ID="00eabdb754024579d19c75fdfc0b3d55">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2022-01-31 15:21:27" Creator="Patrick Irvin" Comments="" ID="3074957f7aa1532987d0641288ff5dd8">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.8.3.55</Library_Version>
+    <Library_Version>1.8.4.56</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,27 +17,26 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jdp_science_jsontext &gt;= 1.6.5.105</External_Dependencies>
+      <External_Dependencies>jdp_science_jsontext &gt;= 1.6.7.107</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.3.0.14</External_Dependencies>
       <External_Dependencies>jdp_science_postgresql &gt;= 0.3.5.23</External_Dependencies>
       <External_Dependencies>jki_lib_caraya &gt;= 1.2.1.131</External_Dependencies>
       <External_Dependencies>jki_lib_json_serialization &gt;= 1.1.10.37</External_Dependencies>
       <External_Dependencies>jki_lib_serialization &gt;= 1.0.1.14</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
-      <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.63</External_Dependencies>
-      <External_Dependencies>labview-zmq &gt;= 3.6.1.111</External_Dependencies>
+      <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
+      <External_Dependencies>labview-zmq &gt;= 3.6.2.112</External_Dependencies>
       <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.0.0.2</External_Dependencies>
       <External_Dependencies>lava_lib_ui_tools &gt;= 1.4.1.74</External_Dependencies>
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
       <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.1.7.10</External_Dependencies>
-      <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.3.5.10</External_Dependencies>
+      <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.3.6.11</External_Dependencies>
       <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.4.0.17</External_Dependencies>
       <External_Dependencies>lvh_toolbox &gt;= 2.0.0.35</External_Dependencies>
       <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
       <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
       <External_Dependencies>mgi_lib_cluster &gt;= 1.1.0.1</External_Dependencies>
       <External_Dependencies>mgi_lib_error_handling &gt;= 1.1.1.3</External_Dependencies>
-      <External_Dependencies>mgi_lib_error_reporter &gt;= 1.0.2.5</External_Dependencies>
       <External_Dependencies>mgi_lib_file &gt;= 1.1.0.4</External_Dependencies>
       <External_Dependencies>mgi_lib_numeric &gt;= 1.1.0.2</External_Dependencies>
       <External_Dependencies>mgi_lib_picture_&amp;_image &gt;= 1.0.2.1</External_Dependencies>
@@ -57,27 +56,26 @@
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.11.0.10</Additional_External_Dependencies>
-      <Direct_Dependencies>jdp_science_jsontext-1.6.5.105</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_jsontext-1.6.7.107</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.3.0.14</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_postgresql-0.3.5.23</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_caraya-1.2.1.131</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_json_serialization-1.1.10.37</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_serialization-1.0.1.14</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
-      <Direct_Dependencies>jki_statemachineobjects-1.4.0.63</Direct_Dependencies>
-      <Direct_Dependencies>labview-zmq-3.6.1.111</Direct_Dependencies>
+      <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
+      <Direct_Dependencies>labview-zmq-3.6.2.112</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.0.0.2</Direct_Dependencies>
       <Direct_Dependencies>lava_lib_ui_tools-1.4.1.74</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_graph_utilities-2.1.7.10</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_lvtoitx-3.3.5.10</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_lvtoitx-3.3.6.11</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_xy_utilities-1.4.0.17</Direct_Dependencies>
       <Direct_Dependencies>lvh_toolbox-2.0.0.35</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_cluster-1.1.0.1</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_handling-1.1.1.3</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_error_reporter-1.0.2.5</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_file-1.1.0.4</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_numeric-1.1.0.2</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_picture_&amp;_image-1.0.2.1</Direct_Dependencies>
@@ -113,9 +111,9 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>[1.8.3]
-- Update to Instrument Framework v1.11.3
-- Fix</Release_Notes>
+      <Release_Notes>[1.8.4]
+- Update to Instrument Framework v1.11.1.15 (and SMO v1.4.0.69)
+- Fix Set methods</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -307,7 +305,7 @@
         <Path>..\lvsrc\instrument.PPMS</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1CBD574661B143D885D39E1729B0B57</GUID>
+      <GUID>3B3C3FBC51DCC1625101660D982B1CCB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -440,7 +438,7 @@
         <Path>..\lvsrc\instrument.PPMS\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4EB70D5250B8715386434C3CE584F6BB</GUID>
+      <GUID>D5F4E52CF45EA5D9DC0AEFDB0AA662DC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
