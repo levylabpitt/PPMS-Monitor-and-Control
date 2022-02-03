@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2022-02-02 17:22:08" Creator="Patrick Irvin" Comments="" ID="e22c677ec0f882b25e0b16a35253ac42">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-10 14:46:32" Modified_Date="2022-02-02 19:21:04" Creator="Patrick Irvin" Comments="" ID="ec4cf3a824e39184883aa90b2f68aeae">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_PPMS_Instrument</Package_File_Name>
-    <Library_Version>1.8.5.1</Library_Version>
+    <Library_Version>1.8.5.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -227,7 +227,7 @@
         <Path>..\lvsrc\instrument.PPMS</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12E0396DC281FE14A77CC7818017D7B9</GUID>
+      <GUID>0C9FEC53FBCE17331F991673E14D6FA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -360,7 +360,7 @@
         <Path>..\lvsrc\instrument.PPMS\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D8B98027FA336DD92ABF27F17E3EFC7</GUID>
+      <GUID>19685F7F8C508C889F3C12BB948996EA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
