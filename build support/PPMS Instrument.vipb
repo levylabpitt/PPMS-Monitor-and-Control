@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-04-22 09:03:51" Creator="Patrick Irvin" Comments="" ID="4cb0a33f357b0b09c772daddce648b82">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-05-23 21:57:55" Creator="Patrick Irvin" Comments="" ID="aa8f559293c26572e59d672f5422ba28">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.8.6.2</Library_Version>
+    <Library_Version>1.8.7.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>- Update to Instrument Framework v1.11.3.2</Release_Notes>
+      <Release_Notes>- update to Instrument Framework v1.12</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -343,7 +343,7 @@
         <Path>..\lvsrc\instrument.PPMS\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>766813162A360DB5AB77FDCA722E1AAE</GUID>
+      <GUID>1140B0E157911E1C3C3197D46F4865E1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
