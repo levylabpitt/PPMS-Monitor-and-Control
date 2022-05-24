@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-02-09 07:40:02" Creator="Patrick Irvin" Comments="" ID="e4e6a0d523d89b28d6de31af48fb14a2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-05-24 00:17:33" Creator="Patrick Irvin" Comments="" ID="1007954c6cdd7cc185fa196c658f361b">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.8.5.5</Library_Version>
+    <Library_Version>1.8.7.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,8 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>- Update to Instrument Framework v1.11.2.1
-- Fix Palette icon</Release_Notes>
+      <Release_Notes>- update to Instrument Framework v1.12</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -344,7 +343,7 @@
         <Path>..\lvsrc\instrument.PPMS\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D5616850C20AFBC5DC411E8B5A0460F</GUID>
+      <GUID>1BCCC7C537478630FDE0B90097311EBD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
