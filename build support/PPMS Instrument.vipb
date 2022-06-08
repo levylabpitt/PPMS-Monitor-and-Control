@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-06-01 11:54:13" Creator="Patrick Irvin" Comments="" ID="35330854b67316a3f57a68be86cb2cda">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-06-08 19:32:57" Creator="Patrick Irvin" Comments="" ID="424ce75cadd0e6195b05ec79b0a65ab4">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.8.7.4</Library_Version>
+    <Library_Version>1.8.7.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.11.2.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.1.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -36,8 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>- Update to Instrument Framework v1.12
-- UI improvements</Release_Notes>
+      <Release_Notes>- Update to Instrument Framework v1.12.1</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -344,7 +343,7 @@
         <Path>..\lvsrc\instrument.PPMS\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E715CFA44B92CC0C68FA502EB5BEEB4</GUID>
+      <GUID>CF59CB57551D688DA398BCE41A4A1705</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
