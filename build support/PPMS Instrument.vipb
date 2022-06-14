@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-06-13 21:45:37" Creator="Patrick Irvin" Comments="" ID="a489f4e1129c670d6dd4e9432046d505">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-06-13 23:44:50" Creator="Patrick Irvin" Comments="" ID="ec65b87643df807520869036417cc651">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.8.7.6</Library_Version>
+    <Library_Version>1.8.7.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -343,7 +343,7 @@
         <Path>..\lvsrc\instrument.PPMS\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18398A6450CF18A728CCDAF4A5B56695</GUID>
+      <GUID>54EAE64B65EA21E60DE63ADEDBB2B7F2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
