@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-09-08 06:41:34" Creator="Patrick Irvin" Comments="" ID="4a41163206716914c6e4eadf1bf0ee15">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-09-08 20:46:30" Creator="Patrick Irvin" Comments="" ID="8bcacca907acb23771c73f0f80843372">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
     <Library_Version>1.8.8.8</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.4.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.5.3</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>- Update to Instrument Framework v1.12.4
+      <Release_Notes>- Update to Instrument Framework v1.12.5
 - Give simulation mode its own port number
 - UI keeps remote connection open
 - Add error handling to UI to close and re-open bad ZMQ connection</Release_Notes>
@@ -346,7 +346,7 @@
         <Path>..\lvsrc\instrument.PPMS\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5547D9673EE80CF82BC64F525757653B</GUID>
+      <GUID>BFB38ED23CCAE0F414490F1CF005B6D6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
