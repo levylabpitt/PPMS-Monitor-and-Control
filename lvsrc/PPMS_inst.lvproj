@@ -18,6 +18,7 @@
 			<Item Name="PPMS Instrument.vipc" Type="Document" URL="../../build support/PPMS Instrument.vipc"/>
 			<Item Name="PPMS.ico" Type="Document" URL="../../build support/PPMS.ico"/>
 			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
+			<Item Name="Manual Build.vi" Type="VI" URL="../../build support/Manual Build.vi"/>
 		</Item>
 		<Item Name="drivers" Type="Folder">
 			<Item Name="QDInstrument_LabView" Type="Folder">
@@ -52,6 +53,8 @@
 					<Item Name="SetField.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetField.vi"/>
 					<Item Name="SetPosition.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetPosition.vi"/>
 					<Item Name="SetTemperature.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetTemperature.vi"/>
+					<Item Name="GetChamber.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetChamber.vi"/>
+					<Item Name="WaitFor.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/WaitFor.vi"/>
 				</Item>
 				<Item Name="QDInstrument.dll" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument.dll"/>
 				<Item Name="QDInstrument_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument_Example.vi"/>
@@ -1069,6 +1072,48 @@
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="String to 1D Array__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/String to 1D Array__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="VIPM API_vipm_api.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/VIPM API/VIPM API_vipm_api.lvlib"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Parse State Queue__jki_lib_state_machine497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Add State(s) to Queue__jki_lib_state_machine497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="1D Array to String__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/1D Array to String__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Build Error Cluster__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Build Error Cluster__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Last PString__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Last PString__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get PString__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get PString__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Type Descriptor Enumeration__ogtk497EDDB02AA4B404E9F3AB1BAA994342.ctl" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Type Descriptor Enumeration__ogtk497EDDB02AA4B404E9F3AB1BAA994342.ctl"/>
+				<Item Name="Type Descriptor Header__ogtk497EDDB02AA4B404E9F3AB1BAA994342.ctl" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Type Descriptor Header__ogtk497EDDB02AA4B404E9F3AB1BAA994342.ctl"/>
+				<Item Name="Type Descriptor__ogtk497EDDB02AA4B404E9F3AB1BAA994342.ctl" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Type Descriptor__ogtk497EDDB02AA4B404E9F3AB1BAA994342.ctl"/>
+				<Item Name="Get Header from TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Header from TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Variant to Header Info__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Variant to Header Info__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Variant Attributes__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Variant Attributes__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Set Data Name__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Set Data Name__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Array of VData to VCluster__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Array of VData to VCluster__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Parse String with TDs__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Parse String with TDs__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Split Cluster TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Split Cluster TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Cluster to Array of VData__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Cluster to Array of VData__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Data Name from TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Data Name from TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Data Name__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Data Name__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Element TD from Array TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Element TD from Array TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Array Element TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Array Element TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Reshape 1D Array__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Reshape 1D Array__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get TDEnum from Data__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get TDEnum from Data__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Array of VData to VArray__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Array of VData to VArray__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk497EDDB02AA4B404E9F3AB1BAA994342.ctl" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Waveform Subtype Enum__ogtk497EDDB02AA4B404E9F3AB1BAA994342.ctl"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Waveform Type Enum from TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Default Data from TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Default Data from TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Array Element TDEnum__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Array Element TDEnum__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Array Size(s)__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Array Size(s)__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Reshape Array to 1D VArray__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Reshape Array to 1D VArray__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Strip Units__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Strip Units__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Set Enum String Value__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Set Enum String Value__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Strings from Enum TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Strings from Enum TD__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Strings from Enum__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Strings from Enum__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Encode Section and Key Names__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Encode Section and Key Names__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Read Key (Variant)__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Read Key (Variant)__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Read Section Cluster__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Read Section Cluster__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Cluster Elements TDs__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Cluster Elements TDs__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Get Cluster Element Names__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Cluster Element Names__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
+				<Item Name="Read INI Cluster__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Read INI Cluster__ogtk497EDDB02AA4B404E9F3AB1BAA994342.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -1669,8 +1714,6 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GetChamber.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetChamber.vi"/>
-			<Item Name="WaitFor.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/WaitFor.vi"/>
 			<Item Name="AB_Ignore_Unresolved_DLL_Ref.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Ignore_Unresolved_DLL_Ref.vi"/>
 			<Item Name="mxLvUpdateUI.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.ctl"/>
 			<Item Name="mxLvSetName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetName.vi"/>
@@ -1683,6 +1726,9 @@
 			</Item>
 			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
 			<Item Name="lp-client.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PPMS Monitor and Control Application" Type="EXE">
@@ -1699,10 +1745,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78715B98-E3A5-406B-B04D-6BB132300DCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
-				<Property Name="Bld_version.patch" Type="Int">8</Property>
+				<Property Name="Bld_version.patch" Type="Int">9</Property>
 				<Property Name="Destination[0].destName" Type="Str">PPMS Monitor and Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/PPMS Monitor and Control.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1711,7 +1757,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/PPMS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D287C280-8636-4647-8779-2C6799A94CA9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{91047B28-CF1E-481F-B510-6FC6FAAD5D7C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PPMS Monitor and Control.vi</Property>
@@ -1733,7 +1779,7 @@
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">PPMS Monitor and Control</Property>
 				<Property Name="TgtF_internalName" Type="Str">PPMS Monitor and Control</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 University of Pittsburgh</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 University of Pittsburgh</Property>
 				<Property Name="TgtF_productName" Type="Str">PPMS Monitor and Control</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{35FE48D6-69F5-42A1-8DB3-A62A5C924E95}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">PPMS Monitor and Control.exe</Property>
@@ -1749,55 +1795,47 @@
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{E60B4861-89AB-4E60-96C2-93AB25CC9AE4}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2019</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{CEF5E531-69E2-461E-8628-0998E4DD0317}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{FA0DB08E-BC18-4194-9ADC-026B7C8D5CEA}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Variable Engine 2019</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
-				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[2].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
-				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 Non-English Support.</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{446D49A5-F830-4ADF-8C78-F03284D6882D}</Property>
-				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2019</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
-				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
-				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
-				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{446D49A5-F830-4ADF-8C78-F03284D6882D}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2019</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -1805,7 +1843,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{F6D99E8D-61E3-4D0F-9EB0-6375D587E25E}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">PPMS Monitor and Control</Property>
-				<Property Name="INST_productVersion" Type="Str">1.8.8</Property>
+				<Property Name="INST_productVersion" Type="Str">1.8.9</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
