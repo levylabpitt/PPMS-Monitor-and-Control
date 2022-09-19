@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-09-17 14:13:57" Creator="Patrick Irvin" Comments="" ID="e6cfb91e61f0f76aa4594c6065ba3c4b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2022-09-19 12:03:42" Creator="Patrick Irvin" Comments="" ID="595469dbcd27770caaa7ff0ce744f3c0">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.8.9.8</Library_Version>
+    <Library_Version>1.8.10.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,13 +36,12 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>- FIx issue with application startup
-- Rename simulation mode PPMSim
+      <Release_Notes>- Extensive refactoring:
+  - PPMS:Process.vi now handles all communication with the hardware (QD Insrtrument Server)
+  - Handle  Command.vi and Handle getAll.vi now forward messages to the PPMS:process.vi and responds with data on the class wire as needed
+  - Remote API is unchanged
 
-- Update to Instrument Framework v1.12.5
-- Give simulation mode its own port number
-- UI keeps remote connection open
-- Add error handling to UI to close and re-open bad ZMQ connection</Release_Notes>
+- Minor UI changes</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -349,7 +348,7 @@
         <Path>..\lvsrc\instrument.PPMS\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0F960324CCD6E451497A563E02752842</GUID>
+      <GUID>B5A104F9E3896E6DDA4D40F20EFCCC37</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
