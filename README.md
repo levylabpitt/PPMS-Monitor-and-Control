@@ -4,7 +4,7 @@ PPMS Monitor and Control is a program written in LabVIEW to monitor the status o
 
 ## Installation
 
-- LabVIEW 2016 32 bit is required
+- LabVIEW 2019 32 bit is required
 - Use the JKI VI Package Manager as described [here](https://levylabpitt.github.io/)
 - Application installer available [here](https://github.com/levylabpitt/PPMS-Monitor-and-Control/releases/latest)
 
