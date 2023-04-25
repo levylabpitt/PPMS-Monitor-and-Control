@@ -17,60 +17,60 @@
 			<Item Name="QDInstrument_LabView" Type="Folder">
 				<Item Name="CAN" Type="Folder">
 					<Item Name="CAN_QDInstrument.llb" Type="Folder">
-						<Item Name="ReadSDO_FLT.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_FLT.vi"/>
-						<Item Name="ReadSDO_S16.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S16.vi"/>
-						<Item Name="ReadSDO_S32.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S32.vi"/>
-						<Item Name="ReadSDO_S8.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S8.vi"/>
-						<Item Name="ReadSDO_STR.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_STR.vi"/>
-						<Item Name="ReadSDO_U16.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U16.vi"/>
-						<Item Name="ReadSDO_U32.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U32.vi"/>
-						<Item Name="ReadSDO_U8.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U8.vi"/>
+						<Item Name="ReadSDO_FLT.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_FLT.vi"/>
+						<Item Name="ReadSDO_S16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S16.vi"/>
+						<Item Name="ReadSDO_S32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S32.vi"/>
+						<Item Name="ReadSDO_S8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S8.vi"/>
+						<Item Name="ReadSDO_STR.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_STR.vi"/>
+						<Item Name="ReadSDO_U16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U16.vi"/>
+						<Item Name="ReadSDO_U32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U32.vi"/>
+						<Item Name="ReadSDO_U8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U8.vi"/>
 					</Item>
-					<Item Name="CAN_Float_Example.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/CAN/CAN_Float_Example.vi"/>
+					<Item Name="CAN_Float_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Float_Example.vi"/>
 				</Item>
 				<Item Name="PPMS" Type="Folder">
-					<Item Name="GetPPMSItem.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/PPMS/GetPPMSItem.vi"/>
-					<Item Name="GetPPMSItem_Example.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/PPMS/GetPPMSItem_Example.vi"/>
-					<Item Name="SendPPMSCommand.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/PPMS/SendPPMSCommand.vi"/>
-					<Item Name="SendPPMSCommand_Example.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/PPMS/SendPPMSCommand_Example.vi"/>
-					<Item Name="SendPPMSCommand_Rotator.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/PPMS/SendPPMSCommand_Rotator.vi"/>
+					<Item Name="GetPPMSItem.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/GetPPMSItem.vi"/>
+					<Item Name="GetPPMSItem_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/GetPPMSItem_Example.vi"/>
+					<Item Name="SendPPMSCommand.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/SendPPMSCommand.vi"/>
+					<Item Name="SendPPMSCommand_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/SendPPMSCommand_Example.vi"/>
+					<Item Name="SendPPMSCommand_Rotator.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/SendPPMSCommand_Rotator.vi"/>
 				</Item>
 				<Item Name="QDInstrument" Type="Folder">
-					<Item Name="GetField.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/GetField.vi"/>
-					<Item Name="GetHelium.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/GetHelium.vi"/>
-					<Item Name="GetPosition.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/GetPosition.vi"/>
-					<Item Name="GetTemperature.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/GetTemperature.vi"/>
-					<Item Name="OpenQDInstrument.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/OpenQDInstrument.vi"/>
-					<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/QDInstrumentExceptionHandler.vi"/>
-					<Item Name="SetChamber.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/SetChamber.vi"/>
-					<Item Name="SetField.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/SetField.vi"/>
-					<Item Name="SetPosition.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/SetPosition.vi"/>
-					<Item Name="SetTemperature.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/SetTemperature.vi"/>
-					<Item Name="GetChamber.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/GetChamber.vi"/>
-					<Item Name="WaitFor.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument/WaitFor.vi"/>
+					<Item Name="GetField.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetField.vi"/>
+					<Item Name="GetHelium.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetHelium.vi"/>
+					<Item Name="GetPosition.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetPosition.vi"/>
+					<Item Name="GetTemperature.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetTemperature.vi"/>
+					<Item Name="OpenQDInstrument.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/OpenQDInstrument.vi"/>
+					<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/QDInstrumentExceptionHandler.vi"/>
+					<Item Name="SetChamber.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetChamber.vi"/>
+					<Item Name="SetField.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetField.vi"/>
+					<Item Name="SetPosition.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetPosition.vi"/>
+					<Item Name="SetTemperature.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/SetTemperature.vi"/>
+					<Item Name="GetChamber.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/GetChamber.vi"/>
+					<Item Name="WaitFor.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument/WaitFor.vi"/>
 				</Item>
-				<Item Name="QDInstrument.dll" Type="Document" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument.dll"/>
-				<Item Name="QDInstrument_Example.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument_Example.vi"/>
-				<Item Name="QDInstrument_Example_Simple.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument_Example_Simple.vi"/>
-				<Item Name="QDInstrument_Server.exe" Type="Document" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/QDInstrument_Server.exe"/>
-				<Item Name="ReleaseNotes.txt" Type="Document" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/drivers/QDInstrument_LabView/ReleaseNotes.txt"/>
+				<Item Name="QDInstrument.dll" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument.dll"/>
+				<Item Name="QDInstrument_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument_Example.vi"/>
+				<Item Name="QDInstrument_Example_Simple.vi" Type="VI" URL="../drivers/QDInstrument_LabView/QDInstrument_Example_Simple.vi"/>
+				<Item Name="QDInstrument_Server.exe" Type="Document" URL="../drivers/QDInstrument_LabView/QDInstrument_Server.exe"/>
+				<Item Name="ReleaseNotes.txt" Type="Document" URL="../drivers/QDInstrument_LabView/ReleaseNotes.txt"/>
 			</Item>
 		</Item>
 		<Item Name="build support" Type="Folder">
-			<Item Name="PPMS Instrument.vipb" Type="Document" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/build support/PPMS Instrument.vipb"/>
-			<Item Name="PPMS Instrument.vipc" Type="Document" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/build support/PPMS Instrument.vipc"/>
-			<Item Name="PPMS.ico" Type="Document" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/build support/PPMS.ico"/>
-			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/build support/Post-Build Custom Action.vi"/>
-			<Item Name="Manual Build.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/build support/Manual Build.vi"/>
+			<Item Name="PPMS Instrument.vipb" Type="Document" URL="../../build support/PPMS Instrument.vipb"/>
+			<Item Name="PPMS Instrument.vipc" Type="Document" URL="../../build support/PPMS Instrument.vipc"/>
+			<Item Name="PPMS.ico" Type="Document" URL="../../build support/PPMS.ico"/>
+			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
+			<Item Name="Manual Build.vi" Type="VI" URL="../../build support/Manual Build.vi"/>
 		</Item>
 		<Item Name="SMOs" Type="Folder">
-			<Item Name="instrument.PPMS.lvclass" Type="LVClass" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/instrument.PPMS/instrument.PPMS.lvclass"/>
-			<Item Name="Instrument UI.PPMS.lvclass" Type="LVClass" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/instrument.PPMS UI/Instrument UI.PPMS.lvclass"/>
-			<Item Name="instrument.PPMS1.lvclass" Type="LVClass" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/instrument.PPMS1/instrument.PPMS1.lvclass"/>
-			<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/instrument.PPMS2/instrument.PPMS2.lvclass"/>
-			<Item Name="instrument.PPMS3.lvclass" Type="LVClass" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/instrument.PPMS3/instrument.PPMS3.lvclass"/>
+			<Item Name="instrument.PPMS.lvclass" Type="LVClass" URL="../instrument.PPMS/instrument.PPMS.lvclass"/>
+			<Item Name="Instrument UI.PPMS.lvclass" Type="LVClass" URL="../instrument.PPMS UI/Instrument UI.PPMS.lvclass"/>
+			<Item Name="instrument.PPMS1.lvclass" Type="LVClass" URL="../instrument.PPMS1/instrument.PPMS1.lvclass"/>
+			<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="../instrument.PPMS2/instrument.PPMS2.lvclass"/>
+			<Item Name="instrument.PPMS3.lvclass" Type="LVClass" URL="../instrument.PPMS3/instrument.PPMS3.lvclass"/>
 		</Item>
-		<Item Name="PPMS Monitor and Control.vi" Type="VI" URL="/C/Users/patrick/Documents/GitHub/PPMS-Monitor-and-Control/lvsrc/PPMS Monitor and Control.vi"/>
+		<Item Name="PPMS Monitor and Control.vi" Type="VI" URL="../PPMS Monitor and Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1173,8 +1173,6 @@
 				<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Strain/Instrument.Strain.lvclass"/>
 				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
 				<Item Name="ProgressBar.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Build Support/ProgressBar/ProgressBar.lvclass"/>
-				<Item Name="Instrument.Template.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Templates/Instrument.Template/Instrument.Template.lvclass"/>
-				<Item Name="Instrument UI.Template.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Templates/Instrument UI.Template/Instrument UI.Template.lvclass"/>
 				<Item Name="List Directory Recursive__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory Recursive__ogtk.vi"/>
 				<Item Name="List Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
@@ -1265,12 +1263,11 @@
 				<Item Name="Physical Units__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Physical Units__ogtk.ctl"/>
 				<Item Name="Get Physical Units from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Physical Units from TD__ogtk.vi"/>
 				<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
-				<Item Name="Instrument.Template.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Rename-Templates/Instrument.Template/Instrument.Template.lvclass"/>
 				<Item Name="PGPASS.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.PG/PGPASS/PGPASS.lvlib"/>
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
-				<Item Name="Instrument UI.Template.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Rename-Templates/Instrument UI.Template/Instrument UI.Template.lvclass"/>
+				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -1530,8 +1527,8 @@
 			<Item Name="mxLvSetName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetName.vi"/>
 			<Item Name="mxLvUpdateUI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.vi"/>
 			<Item Name="GetTemplatePathFromLib.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/GetTemplatePathFromLib.vi"/>
-			<Item Name="NI_MDF.lvlib" Type="Library" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
-			<Item Name="NIMdf.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1540,8 +1537,8 @@
 			</Item>
 			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
 			<Item Name="lp-client.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
-			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
+			<Item Name="Instrument.Framework-Template.lvclass" Type="LVClass" URL="../../../Instrument-Framework-Template/lvsrc/SMOs/Instrument.Framework-Template/Instrument.Framework-Template.lvclass"/>
+			<Item Name="Instrument UI.Framework-Template.lvclass" Type="LVClass" URL="../../../Instrument-Framework-Template/lvsrc/SMOs/Instrument UI.Framework-Template/Instrument UI.Framework-Template.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PPMS Monitor and Control Application" Type="EXE">
