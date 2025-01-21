@@ -30,17 +30,7 @@
 	<Item Name="instrument.PPMS2.ctl" Type="Class Private Data" URL="instrument.PPMS2.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="PPMS2.Commands-enum.ctl" Type="VI" URL="../Typedefs/PPMS2.Commands-enum.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"^!!!!!1"V1"9!"R"(:81A47&amp;H&lt;G6U)%:J:7RE%%&gt;F&gt;#"):7RJ&gt;7UA4'6W:7Q02W6U)&amp;2F&lt;8"F=G&amp;U&gt;8*F#5&gt;F&gt;#""&lt;G&gt;M:2"4:81A47&amp;H&lt;G6U)%:J:7RE$V.F&gt;#"5:7VQ:8*B&gt;(6S:1F4:81A17ZH&lt;'5!!!2&amp;&lt;H6N!!!"!!!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-		</Item>
-	</Item>
+	<Item Name="Typedefs" Type="Folder"/>
 	<Item Name="Methods (Overrides)" Type="Folder">
 		<Item Name="Get SMO Public API.vi" Type="VI" URL="../Get SMO Public API.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````](1W^N&lt;7&amp;O:!!71%!!!@````]!"1B$&lt;WVN97ZE=Q!!/E"Q!"Y!!"I9;7ZT&gt;(*V&lt;76O&gt;#Z15%V4-CZM&gt;G.M98.T!!!5;7ZT&gt;(*V&lt;76O&gt;#Z15%V4-C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"I9;7ZT&gt;(*V&lt;76O&gt;#Z15%V4-CZM&gt;G.M98.T!!!4;7ZT&gt;(*V&lt;76O&gt;#Z15%V4-C"J&lt;A"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!I!!!!!</Property>
