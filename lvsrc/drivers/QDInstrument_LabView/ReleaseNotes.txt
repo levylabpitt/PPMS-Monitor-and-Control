@@ -5,6 +5,107 @@ This file contains release notes. For usage instructions, see Application Note 1
 
 Release Notes:
 
+--- Version 1.0.7
+
+Compatible with LabVIEW 2012 through LabVIEW 2018
+
+Added:
+- OptiCool compatibility
+
+Removed:
+- LabVIEW 8.2 compatibility. This version of LabVIEW cannot be installed on Windows 10, so we cannot support it. Use an earlier release for LabVIEW 8.2
+
+File Versions:
+QDInstrument.dll: 1.0.7.15004
+QDInstrument_Server.exe: 1.0.7.15027
+GetDeployRevs.vi: 31
+QDInstrument_Example.vi: 136
+CAN_Float_Example.vi: 191
+CAN_Float_Write_Example.vi: 196
+ReadSDO_FLT.vi: 80
+ReadSDO_S16.vi: 83
+ReadSDO_S32.vi: 84
+ReadSDO_S8.vi: 82
+ReadSDO_STR.vi: 83
+ReadSDO_U16.vi: 84
+ReadSDO_U32.vi: 85
+ReadSDO_U8.vi: 83
+WriteSDO_FLT.vi: 83
+WriteSDO_S16.vi: 85
+WriteSDO_S32.vi: 85
+WriteSDO_S8.vi: 86
+WriteSDO_STR.vi: 88
+WriteSDO_U16.vi: 87
+WriteSDO_U32.vi: 86
+WriteSDO_U8.vi: 87
+GetPPMSItem.vi: 3
+GetPPMSItem_Example.vi: 12
+SendPPMSCommand.vi: 7
+SendPPMSCommand_Example.vi: 18
+SendPPMSCommand_Rotator.vi: 30
+CanTest.vi: 219
+GetPPMSItemTest.vi: 226
+PositionTest.vi: 22
+QDInstrumentLoopTest.vi: 142
+SendPPMSCommandTest.vi: 235
+GetChamber.vi: 42
+GetField.vi: 36
+GetPosition.vi: 12
+GetTemperature.vi: 35
+OpenQDInstrument.vi: 98
+QDInstrumentExceptionHandler.vi: 23
+SetChamber.vi: 53
+SetField.vi: 50
+SetPosition.vi: 10
+SetTemperature.vi: 51
+WaitFor.vi: 65
+
+--- Version 1.0.5
+
+Compatible with LabVIEW 8.2 through LabVIEW 2014
+
+Added:
+- Write SDO capability. This is not in the generally released package, but is available by request. Supported in local mode only (not remote mode).
+
+File Versions:
+QDInstrument.dll: 1.0.6.28368
+QDInstrument_Server.exe: 1.0.6.15616
+QDInstrument_Example.vi: 133
+CAN_Float_Example.vi: 191
+ReadSDO_FLT.vi: 80
+ReadSDO_S16.vi: 83
+ReadSDO_S32.vi: 84
+ReadSDO_S8.vi: 82
+ReadSDO_STR.vi: 83
+ReadSDO_U16.vi: 84
+ReadSDO_U32.vi: 85
+ReadSDO_U8.vi: 83
+CAN_Float_Write_Example.vi: 196
+WriteSDO_FLT.vi: 83
+WriteSDO_S16.vi: 85
+WriteSDO_S32.vi: 85
+WriteSDO_S8.vi: 86
+WriteSDO_STR.vi: 88
+WriteSDO_U16.vi: 87
+WriteSDO_U32.vi: 86
+WriteSDO_U8.vi: 87
+GetPPMSItem.vi: 3
+GetPPMSItem_Example.vi: 12
+SendPPMSCommand.vi: 7
+SendPPMSCommand_Example.vi: 18
+SendPPMSCommand_Rotator.vi: 30
+GetChamber.vi: 42
+GetField.vi: 36
+GetPosition.vi: 12
+GetTemperature.vi: 35
+OpenQDInstrument.vi: 95
+QDInstrumentExceptionHandler.vi: 23
+SetChamber.vi: 53
+SetField.vi: 50
+SetPosition.vi: 10
+SetTemperature.vi: 51
+WaitFor.vi: 65
+
 --- Version 1.0.4
 
 Compatible with LabVIEW 8.2 through LabVIEW 2013.

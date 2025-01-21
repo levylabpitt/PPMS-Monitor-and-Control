@@ -16,17 +16,28 @@
 		<Item Name="drivers" Type="Folder">
 			<Item Name="QDInstrument_LabView" Type="Folder">
 				<Item Name="CAN" Type="Folder">
+					<Item Name="CAN_Write_QDInstrument" Type="Folder">
+						<Item Name="WriteSDO_FLT.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Write_QDInstrument/WriteSDO_FLT.vi"/>
+						<Item Name="WriteSDO_S16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Write_QDInstrument/WriteSDO_S16.vi"/>
+						<Item Name="WriteSDO_S32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Write_QDInstrument/WriteSDO_S32.vi"/>
+						<Item Name="WriteSDO_S8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Write_QDInstrument/WriteSDO_S8.vi"/>
+						<Item Name="WriteSDO_STR.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Write_QDInstrument/WriteSDO_STR.vi"/>
+						<Item Name="WriteSDO_U16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Write_QDInstrument/WriteSDO_U16.vi"/>
+						<Item Name="WriteSDO_U32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Write_QDInstrument/WriteSDO_U32.vi"/>
+						<Item Name="WriteSDO_U8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Write_QDInstrument/WriteSDO_U8.vi"/>
+					</Item>
 					<Item Name="CAN_QDInstrument.llb" Type="Folder">
-						<Item Name="ReadSDO_FLT.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_FLT.vi"/>
-						<Item Name="ReadSDO_S16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S16.vi"/>
-						<Item Name="ReadSDO_S32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S32.vi"/>
-						<Item Name="ReadSDO_S8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_S8.vi"/>
-						<Item Name="ReadSDO_STR.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_STR.vi"/>
-						<Item Name="ReadSDO_U16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U16.vi"/>
-						<Item Name="ReadSDO_U32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U32.vi"/>
-						<Item Name="ReadSDO_U8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U8.vi"/>
+						<Item Name="ReadSDO_FLT.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument/ReadSDO_FLT.vi"/>
+						<Item Name="ReadSDO_S16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument/ReadSDO_S16.vi"/>
+						<Item Name="ReadSDO_S32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument/ReadSDO_S32.vi"/>
+						<Item Name="ReadSDO_S8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument/ReadSDO_S8.vi"/>
+						<Item Name="ReadSDO_STR.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument/ReadSDO_STR.vi"/>
+						<Item Name="ReadSDO_U16.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument/ReadSDO_U16.vi"/>
+						<Item Name="ReadSDO_U32.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument/ReadSDO_U32.vi"/>
+						<Item Name="ReadSDO_U8.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_QDInstrument/ReadSDO_U8.vi"/>
 					</Item>
 					<Item Name="CAN_Float_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Float_Example.vi"/>
+					<Item Name="CAN_Float_Write_Example.vi" Type="VI" URL="../drivers/QDInstrument_LabView/CAN/CAN_Float_Write_Example.vi"/>
 				</Item>
 				<Item Name="PPMS" Type="Folder">
 					<Item Name="GetPPMSItem.vi" Type="VI" URL="../drivers/QDInstrument_LabView/PPMS/GetPPMSItem.vi"/>
@@ -1426,6 +1437,9 @@
 			</Item>
 			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
 			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="QDInstrument" Type="VI" URL="QDInstrument">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="null" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
