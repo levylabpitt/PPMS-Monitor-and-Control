@@ -1486,17 +1486,17 @@
 			<Item Name="null" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="PPMS Monitor and Control Application" Type="EXE">
+			<Item Name="PPMS Monitor and Control (x86) Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{86E18488-3AD1-40DA-A345-2B303306735A}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4923A5EC-F6F3-4234-B3AE-EA4289209B79}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9466237D-4595-444E-AA52-152B9281363D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">PPMS Monitor and Control Application</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">PPMS Monitor and Control (x86) Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Application (x86)</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78715B98-E3A5-406B-B04D-6BB132300DCF}</Property>
@@ -1505,41 +1505,53 @@
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">10</Property>
 				<Property Name="Destination[0].destName" Type="Str">PPMS Monitor and Control.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application/PPMS Monitor and Control.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application (x86)/PPMS Monitor and Control.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Application (x86)/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/PPMS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{86AE4654-E5EF-4EAC-87CA-7AA11223CE48}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8BB0F523-A817-4AB1-8756-30356C3F0074}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SMOs/instrument.PPMS.lvclass/PPMS Monitor and Control.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/drivers</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SMOs/instrument.PPMS.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SMOs</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SMOs/Instrument UI.PPMS.lvclass</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SMOs/instrument.PPMS1.lvclass</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SMOs/instrument.PPMS2.lvclass</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SMOs/instrument.PPMS3.lvclass</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SMOs/instrument.OptiCool.lvclass</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">PPMS Monitor and Control</Property>
-				<Property Name="TgtF_internalName" Type="Str">PPMS Monitor and Control</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 University of Pittsburgh</Property>
-				<Property Name="TgtF_productName" Type="Str">PPMS Monitor and Control</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">PPMS Monitor and Control (x86)</Property>
+				<Property Name="TgtF_internalName" Type="Str">PPMS Monitor and Control (x86)</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 University of Pittsburgh</Property>
+				<Property Name="TgtF_productName" Type="Str">PPMS Monitor and Control (x86)</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{35FE48D6-69F5-42A1-8DB3-A62A5C924E95}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">PPMS Monitor and Control.exe</Property>
 			</Item>
-			<Item Name="PPMS Monitor and Control Installer" Type="Installer">
+			<Item Name="PPMS Monitor and Control (x86) Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">LevyLab</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{5C9A122A-5FFF-4A1D-8D31-099197C7360E}</Property>
@@ -1594,10 +1606,10 @@
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">PPMS Monitor and Control Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">PPMS Monitor and Control (x86) Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{F6D99E8D-61E3-4D0F-9EB0-6375D587E25E}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
-				<Property Name="INST_productName" Type="Str">PPMS Monitor and Control</Property>
+				<Property Name="INST_productName" Type="Str">PPMS Monitor and Control (x86)</Property>
 				<Property Name="INST_productVersion" Type="Str">1.8.10</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
@@ -1615,13 +1627,13 @@
 				<Property Name="Source[0].File[0].dest" Type="Str">{F6D99E8D-61E3-4D0F-9EB0-6375D587E25E}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">PPMS Monitor and Control.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">PPMS Monitor and Control</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">PPMS Monitor and Control (x86)</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LevyLab</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{35FE48D6-69F5-42A1-8DB3-A62A5C924E95}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">PPMS Monitor and Control Application</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/PPMS Monitor and Control Application</Property>
+				<Property Name="Source[0].name" Type="Str">PPMS Monitor and Control (x86) Application</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/PPMS Monitor and Control (x86) Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
