@@ -1471,9 +1471,6 @@
 			</Item>
 			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
 			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
-			<Item Name="QDInstrument" Type="VI" URL="QDInstrument">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1511,7 +1508,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application (x86)/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/PPMS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8BB0F523-A817-4AB1-8756-30356C3F0074}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9BD02173-9F57-468D-86B8-46AB70196CA3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SMOs/instrument.PPMS.lvclass/PPMS Monitor and Control.vi</Property>
