@@ -82,6 +82,7 @@
 			<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="../lvsrc/instrument.PPMS2/instrument.PPMS2.lvclass"/>
 			<Item Name="instrument.PPMS3.lvclass" Type="LVClass" URL="../lvsrc/instrument.PPMS3/instrument.PPMS3.lvclass"/>
 			<Item Name="instrument.OptiCool.lvclass" Type="LVClass" URL="../lvsrc/instrument.OptiCool/instrument.OptiCool.lvclass"/>
+			<Item Name="PPMS.lvlib" Type="Library" URL="../lvsrc/PPMS/PPMS.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
