@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2025-05-02 16:00:05" Creator="Patrick Irvin" Comments="" ID="5fe43d8d56aac86de198f11cb222567d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2025-05-02 17:41:02" Creator="Patrick Irvin" Comments="" ID="83d551119a8eb544050148c3a2d06fa4">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.9.0.17</Library_Version>
+    <Library_Version>1.9.0.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -43,7 +43,7 @@
 - #24: Change PPMS3 persistent/driven magnet
 - #26: Select temperature approach mode (Channel 0: FastSettle, 0: No Overshoot)
 - #30: Change to Instrument Framework 1.15 / SMO 1.4
-- Change startup behavior to use QDInstruments local mode if address = "", "127.0.0.1", or "localhost"
+- Change startup behavior to use QDInstruments local mode if address is empty, 127.0.0.1, or localhost
 - Add PPMS.lvlib containing class factory to decouple classes and reduce circular dependencies</Release_Notes>
     </Description>
     <Destinations>
@@ -380,7 +380,7 @@
         <Path>..\lvsrc\PPMS\Select PPMS Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>017A915805DEC9DCE9E53122D7825674</GUID>
+      <GUID>FABCDEDA8D378F80B09F586E45BA8B8F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
