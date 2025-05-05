@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2025-05-05 14:09:18" Creator="Patrick Irvin" Comments="" ID="a63f44329f5e04c579634967450834b5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2025-05-05 14:17:16" Creator="Patrick Irvin" Comments="" ID="96ae965b0cb39b7b65d2453adc6995ec">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.9.0.18</Library_Version>
+    <Library_Version>1.9.1.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -95,15 +95,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>[1.9.0]
-- #20: new API format (ie, setMagnet instead of Set Magnet)
-- #22: Instrument Framework v1.14(.4)
-- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool
-- #24: Change PPMS3 persistent/driven magnet
-- #26: Select temperature approach mode (Channel 0: FastSettle, 0: No Overshoot)
-- #30: Change to Instrument Framework 1.15 / SMO 1.4
-- Change startup behavior to use QDInstruments local mode if address is empty, 127.0.0.1, or localhost
-- Add PPMS.lvlib containing class factory to decouple classes and reduce circular dependencies</Release_Notes>
+      <Release_Notes>[1.9.1]
+- #31: move unit tests and remove Caraya dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -439,7 +432,7 @@
         <Path>..\lvsrc\PPMS\Select PPMS Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5309CB748A6D21E0467613394C4627D3</GUID>
+      <GUID>6BFF1CBDD937AC2DD25293D69781F127</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
