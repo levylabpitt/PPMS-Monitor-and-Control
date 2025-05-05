@@ -1458,9 +1458,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78715B98-E3A5-406B-B04D-6BB132300DCF}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PPMS Monitor and Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/PPMS Monitor and Control.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -1569,7 +1570,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{F6D99E8D-61E3-4D0F-9EB0-6375D587E25E}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">PPMS Monitor and Control</Property>
-				<Property Name="INST_productVersion" Type="Str">1.9.0</Property>
+				<Property Name="INST_productVersion" Type="Str">1.9.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
