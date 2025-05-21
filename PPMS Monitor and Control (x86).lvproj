@@ -1166,6 +1166,7 @@
 				<Item Name="Logger.Error.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Logger.Error/Logger.Error.lvlib"/>
 				<Item Name="RemoteControl.ZMQ.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/RemoteControl.ZMQ/RemoteControl.ZMQ.lvlib"/>
 				<Item Name="Powershell Terminal.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Build Support/G-CLI/Powershell Terminal.vi"/>
+				<Item Name="MGI Is Runtime.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Is Runtime.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
