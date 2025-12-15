@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2025-06-25 15:35:27" Creator="Patrick Irvin" Comments="" ID="9e7dd8bbb9e4e0a67906b6f05fa72d91">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2025-11-03 17:14:38" Creator="Patrick Irvin" Comments="" ID="5c79ae1cb69d767fd4cb289068de7ff7">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.10.0.25</Library_Version>
+    <Library_Version>1.10.1.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,10 +36,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>[1.10.0]
-- Hide controls and indicators that are not applicable to the OptiCool
-- Ensure UI uses only "local" communication
-- Updated ZMQ backend</Release_Notes>
+      <Release_Notes>[1.10.1]
+-build with pgsql/3.10.2.11</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -375,7 +373,7 @@
         <Path>..\lvsrc\PPMS\Select PPMS Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59BBB0E3652E42744E0E8B462B41073E</GUID>
+      <GUID>0AE35482A7164A8DA715A5E4CC7F44FA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
