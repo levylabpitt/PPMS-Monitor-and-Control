@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2026-02-05 22:37:04" Creator="Patrick Irvin" Comments="" ID="98c74cdeab1e61e8d1b252809945d1c4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2026-02-06 16:07:02" Creator="Patrick Irvin" Comments="" ID="c1fd110b2593af96a93ef1f73cc4e2d3">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.11.1.28</Library_Version>
+    <Library_Version>1.11.2.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,8 +36,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>[1.11.1]
-- build with pgsql/1.12.0.14 (improve database connection management)</Release_Notes>
+      <Release_Notes>[1.11.2]
+- build with pgsql/3.12.1.15 (hotfix for connection key)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -401,7 +401,7 @@
         <Path>..\lvsrc\PPMS\Select PPMS Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48316C17766EB152D8F9AF2425DE8AB1</GUID>
+      <GUID>0AE16550AA05E5E9F08C7CCA8BCC69AC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
