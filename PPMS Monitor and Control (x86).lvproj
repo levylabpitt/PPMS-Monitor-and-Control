@@ -81,6 +81,7 @@
 			<Item Name="instrument.PPMS1.lvclass" Type="LVClass" URL="../lvsrc/instrument.PPMS1/instrument.PPMS1.lvclass"/>
 			<Item Name="instrument.PPMS2.lvclass" Type="LVClass" URL="../lvsrc/instrument.PPMS2/instrument.PPMS2.lvclass"/>
 			<Item Name="instrument.PPMS3.lvclass" Type="LVClass" URL="../lvsrc/instrument.PPMS3/instrument.PPMS3.lvclass"/>
+			<Item Name="instrument.PPMS-W-1.lvclass" Type="LVClass" URL="../lvsrc/instrument.PPMS-W-1/instrument.PPMS-W-1.lvclass"/>
 			<Item Name="instrument.OptiCool.lvclass" Type="LVClass" URL="../lvsrc/instrument.OptiCool/instrument.OptiCool.lvclass"/>
 			<Item Name="PPMS.lvlib" Type="Library" URL="../lvsrc/PPMS/PPMS.lvlib"/>
 		</Item>
@@ -851,6 +852,7 @@
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
 				<Item Name="TCP_NoDelay_Linux.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Linux.vi"/>
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
+				<Item Name="URI.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/JKI SMO/URI Parsing/URI.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
