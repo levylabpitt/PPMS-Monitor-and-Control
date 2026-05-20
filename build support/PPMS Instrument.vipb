@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2026-05-13 15:42:06" Creator="Patrick Irvin" Comments="" ID="18396c4636947425d929e7e16656450d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2026-05-20 17:51:14" Creator="Patrick Irvin" Comments="" ID="65c13e306ac867b141ba373440e58116">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.12.0.31</Library_Version>
+    <Library_Version>1.12.1.32</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,8 +36,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>#36 Add support for WPQIC PPMS ('PPMS-W-1') (including support for Supporting DynaCool)
-- fix issue with incorrectly reported public API list</Release_Notes>
+      <Release_Notes>- build with LV-Data-PGSQL/3.12.3.17</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -401,7 +400,7 @@
         <Path>..\lvsrc\PPMS\Select PPMS Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>591A8B50E4D98C00192D5753F18C25C1</GUID>
+      <GUID>650AC95BA049CD7963586D6A2057BBC6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
