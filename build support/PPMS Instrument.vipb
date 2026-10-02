@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2026-09-28 11:45:45" Creator="Patrick Irvin" Comments="" ID="fb98c1b1e8e22b337ea5e90a0aa9afce">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-08 23:25:17" Modified_Date="2026-10-01 23:38:52" Creator="Patrick Irvin" Comments="" ID="7018ee297429e0bb3155779c0ba5f318">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_ppms_instrument</Package_File_Name>
-    <Library_Version>1.12.3.35</Library_Version>
+    <Library_Version>1.12.4.36</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -37,7 +37,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/PPMS-Monitor-and-Control</URL>
-      <Release_Notes>- build with Instrument Framework 1.15.13
+      <Release_Notes>- Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger's CPU use grew with uptime).
 
 *from build 1.12.2.33 allows installation on 64-bit LabVIEW, however you cannot communicate directly to MultiVu from 64-bit LabVIEW.</Release_Notes>
     </Description>
@@ -403,7 +403,7 @@
         <Path>..\lvsrc\PPMS\Select PPMS Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E8DC2D140B419ADC514D47E3C63BF0D</GUID>
+      <GUID>73F29CF292C2EC9F2ADFE3FB6161367B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
